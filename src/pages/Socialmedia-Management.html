@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>نساعد المتاجر الإلكترونية على تحقيق النمو.</title>
+    <link rel="stylesheet" href="../static/Logo-icon.svg"/>
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../Font Awesome/css/all.min 3.29.16 PM.css"/>
+    <link rel="stylesheet" href="../sass/app.css"/>
+  </head>
+  <body>
+    <header>
+      <div class="container"> 
+        <div class="parent-header">
+          <div class="navbar-lg">
+            <div class="header-logo"> <img src="../static/Home-images/headre-logo.svg" alt="logo" title="logo"/></div>
+            <nav> 
+              <ul class="parent-element">
+                <li class="element-item"><a class="element-link color-purple font-xs font-w-sm" href="../pages/index.html">الرئيسية</a></li>
+                <li class="element-item"><a class="element-link font-xs font-w-sm color-darck" href="../pages/About.html">من نحن    </a></li>
+                <li class="element-item"><a class="element-link font-xs font-w-sm color-darck" href="../pages/Ad-mngement-services.html">الخدمات      </a></li>
+                <li class="element-item"><a class="element-link font-xs font-w-sm color-darck" href="../pages/Services.html">منظومة التكامل</a></li>
+                <li class="element-item"><a class="element-link font-xs font-w-sm color-darck" href="../pages/system integration.html">المدونة</a></li>
+              </ul>
+            </nav>
+            <div class="btns"> 
+              <div class="btn-lng"> <a class="color-darck font-xs font-w-sm" href="#">English </a></div>
+              <div class="btn-contact btn-primary"><a class="color-wight font-xs font-w-bold" href="#">تواصل معنا</a></div>
+            </div>
+          </div>
+          <div class="navbar-sm d-block">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"><i class="fa-solid fa-bars fa-2xl" style="color: #000000;"></i></button>
+            <div class="offcanvas bg-purple pt-3 offcanvas-end" id="offcanvasNavbar" tabindex="-1" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <div class="header-logo d-flex justify-content-between align-items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="137" height="49" viewBox="0 0 137 49" fill="none">
+                    <g clip-path="url(#clip0_1836_1903)">
+                      <path d="M123.298 13.6094C115.731 13.6094 109.596 19.704 109.596 27.2242C109.596 30.9815 111.131 34.3852 113.609 36.8496C116.089 39.3112 119.513 40.8362 123.298 40.8362C127.083 40.8362 130.506 39.3112 132.987 36.8496C135.468 34.3852 137 30.9843 137 27.2242V13.6094H123.298ZM128.779 27.2242C128.779 28.7271 128.165 30.0891 127.172 31.0754C126.179 32.0617 124.808 32.6723 123.295 32.6723V27.2269H117.814C117.814 24.2183 120.269 21.7816 123.295 21.7816H128.777V27.2297L128.779 27.2242Z" fill="white"></path>
+                      <path d="M71.2421 13.6149V24.5084C71.2421 25.4367 71.1503 26.3429 70.9696 27.2186C70.4245 29.8902 69.0951 32.2772 67.2263 34.1338C64.7484 36.5954 61.3221 38.1204 57.5371 38.1204V32.6778C57.1478 33.1917 56.7223 33.6779 56.2662 34.1338C53.7855 36.5954 50.362 38.1204 46.577 38.1204V32.6778C46.1876 33.1917 45.7621 33.6779 45.3061 34.1338C42.8281 36.5954 39.4019 38.1204 35.6169 38.1204H30.141V32.6695C29.7489 33.1862 29.3234 33.6752 28.8645 34.131C26.3838 36.5954 22.9603 38.1177 19.1753 38.1177H13.6994C9.91722 38.1177 6.48819 36.5954 4.01027 34.131C1.53236 31.6667 0 28.2657 0 24.5084V19.9554C0 17.7949 1.39331 15.8776 3.45684 15.1924L8.22078 13.6149V24.5084C8.22078 26.0113 8.83261 27.3734 9.82544 28.3569C10.8155 29.3432 12.1866 29.9538 13.7022 29.9538H19.1781C20.691 29.9538 22.0621 29.3432 23.0549 28.3569C24.0477 27.3734 24.6623 26.0113 24.6623 24.5084V19.9554C24.6623 17.7949 26.0556 15.8748 28.1192 15.1924L32.8831 13.6149V24.5084C32.8831 26.4451 32.4743 28.2851 31.7401 29.9538H35.6224C37.1353 29.9538 38.5064 29.3432 39.4992 28.3569C40.4921 27.3734 41.1067 26.0113 41.1067 24.5056V19.9526C41.1067 17.7922 42.5 15.8748 44.5607 15.1897L49.3247 13.6094V24.5056C49.3247 26.3373 48.9604 28.0834 48.2985 29.6775C49.1217 29.4095 49.8586 28.9509 50.4566 28.3569C51.4494 27.3734 52.064 26.0113 52.064 24.5056V19.9526C52.064 17.7922 53.4573 15.8721 55.5208 15.1897L60.2848 13.6121V24.5056C60.2848 26.3373 59.9205 28.0834 59.2586 29.6775C60.0818 29.4067 60.8187 28.9509 61.4167 28.3541C62.4095 27.3706 63.0241 26.0086 63.0241 24.5029V19.9499C63.0241 17.7894 64.4174 15.8693 66.481 15.1869L71.2449 13.6094L71.2421 13.6149Z" fill="white"></path>
+                      <path d="M101.374 13.6093L114.356 9.31044C116.419 8.62804 117.813 6.70794 117.813 4.54747V0L84.9378 10.888V19.0519H93.1586C96.1844 19.0519 98.64 21.4914 98.64 24.5C98.64 26.0029 98.0254 27.365 97.0326 28.3485C96.0425 29.3348 94.6687 29.9454 93.1586 29.9454H87.6827C86.1698 29.9454 84.7987 29.3348 83.8087 28.3485C82.8159 27.365 82.2012 26.0002 82.2012 24.5V0L77.4373 1.57753C75.3738 2.25992 73.9805 4.18003 73.9805 6.34049V24.5C73.9805 28.2573 75.5156 31.661 77.9935 34.1254C80.4714 36.587 83.8977 38.112 87.6827 38.112H93.1586C96.9408 38.112 100.367 36.587 102.848 34.1254C105.326 31.6638 106.861 28.2601 106.861 24.5C106.861 20.0465 104.708 16.0902 101.379 13.6065L101.374 13.6093Z" fill="white"></path>
+                      <path d="M16.4385 48.9948C18.7086 48.9948 20.5489 47.1666 20.5489 44.9115C20.5489 42.6563 18.7086 40.8281 16.4385 40.8281C14.1684 40.8281 12.3281 42.6563 12.3281 44.9115C12.3281 47.1666 14.1684 48.9948 16.4385 48.9948Z" fill="white"></path>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1836_1903">
+                        <rect width="137" height="49" fill="white"></rect>
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="header-navbar-parent">
+                  <ul class="header-navbar-list d-block">
+                    <li class="element-item pb-4"><a class="element-link color-wight font-sm font-w-sm" href="../pages/index.html">الرئيسية</a></li>
+                    <li class="element-item pb-4"><a class="element-link font-sm font-w-sm color-wight" href="../pages/About.html">من نحن</a></li>
+                    <li class="element-item pb-4"><a class="element-link font-sm font-w-sm color-wight" href="../pages/Ad-mngement-services.html">الخدمات</a></li>
+                    <li class="element-item pb-4"><a class="element-link font-sm font-w-sm color-wight" href="../pages/Services.html">منظومة التكامل</a></li>
+                    <li class="element-item pb-4"><a class="element-link font-sm font-w-sm color-wight" href="../pages/system integration.html">المدونة</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="socialMedia-Mnajement intro">
+      <div class="container">
+        <div class="parent-intro"> 
+          <div class="content-element pb-5">
+            <div class="content-title"> 
+              <h1 class="color-darcjk font-lg font-w-lg line-sm">نحول الأفكار إلى محتوى يجذب الانتباه ويحقق مبيعات</h1>
+            </div>
+            <div class="content-text">
+              <p class="color-darck font-xs font-w-sm"> نكتب لك محتوى إبداعي يعزز علامتك التجارية ويجذب العملاء إلى متجرك</p>
+            </div>
+            <div class="content-btn btn-primary"><a class="color-wight bg-purple font-xs font-w-md">اطلب استشارة مجانية</a></div>
+          </div>
+          <div class="content-img"> <img src="../static/Social-media-content-management-imags/img-intro 6.16.48 PM.svg" alt=""/></div>
+        </div>
+      </div>
+    </section>
+    <section class="methodologies pt-5">
+      <div class="container"> 
+        <div class="content-title pt-4">
+          <h3 class="color-0darck font-md font-w-lg text-center pb-5">تعرف على منهجيتنا لتحقيق قوة الكلمة</h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex pb-4"> 
+            <div class="card card-style">
+              <div class="card-img"> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="49" viewBox="0 0 45 49" fill="none">
+                  <g clip-path="url(#clip0_653_22320)">
+                    <path d="M24.2217 28.7013C30.2748 28.7013 35.1817 23.7943 35.1817 17.7412C35.1817 11.6882 30.2748 6.78125 24.2217 6.78125C18.1687 6.78125 13.2617 11.6882 13.2617 17.7412C13.2617 23.7943 18.1687 28.7013 24.2217 28.7013Z" fill="#F2B705" stroke="#F2B705" stroke-width="2" stroke-miterlimit="10"></path>
+                    <path d="M21.9714 21.03C21.4514 20.53 21.1114 19.93 20.9414 19.22L22.5614 18.6C22.6414 19.01 22.8014 19.38 23.0514 19.71C23.3014 20.04 23.6314 20.26 24.0414 20.37V17.98L23.7714 17.93C23.2714 17.84 22.8414 17.68 22.4814 17.47C22.1214 17.26 21.8514 16.97 21.6514 16.61C21.4514 16.25 21.3514 15.79 21.3514 15.24C21.3514 14.8 21.4514 14.4 21.6614 14.02C21.8714 13.64 22.1714 13.32 22.5814 13.06C22.9914 12.8 23.4714 12.65 24.0414 12.59V11.5H25.2114V12.6C25.7214 12.68 26.1714 12.83 26.5414 13.06C26.9114 13.29 27.2114 13.56 27.4414 13.89C27.6714 14.22 27.8414 14.57 27.9514 14.94L26.4114 15.56C26.3414 15.35 26.2514 15.15 26.1514 14.96C26.0414 14.78 25.9114 14.62 25.7514 14.49C25.5914 14.36 25.4114 14.26 25.2014 14.19V16.4L25.5314 16.48C26.2714 16.65 26.8714 16.95 27.3314 17.38C27.8014 17.81 28.0314 18.41 28.0314 19.18C28.0314 19.91 27.7914 20.52 27.3114 21.03C26.8314 21.54 26.1314 21.84 25.1914 21.93V23.02H24.0214V21.92C23.1614 21.83 22.4814 21.53 21.9614 21.03H21.9714ZM24.0314 15.46V14.14C23.7214 14.21 23.4914 14.34 23.3414 14.53C23.1914 14.72 23.1214 14.93 23.1214 15.15C23.1214 15.43 23.2014 15.65 23.3514 15.82C23.5014 15.99 23.7314 16.1 24.0314 16.18V15.46ZM25.7914 20.17C25.9414 20.06 26.0614 19.93 26.1414 19.78C26.2214 19.63 26.2614 19.46 26.2614 19.27C26.2614 19.08 26.2214 18.93 26.1314 18.78C26.0414 18.63 25.9314 18.51 25.7714 18.41C25.6114 18.31 25.4314 18.24 25.2114 18.19V20.4C25.4514 20.36 25.6514 20.28 25.8014 20.17H25.7914Z" fill="#4832D9"></path>
+                    <path d="M37.3516 35.7619C41.4616 31.2019 44.0016 25.0219 44.0016 18.2119C44.0016 11.4019 41.4616 5.22188 37.3516 0.671875" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                    <path d="M8.27117 1.03906C4.35117 5.54906 1.95117 11.5891 1.95117 18.2091C1.95117 24.8291 4.35117 30.8691 8.27117 35.3891" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                    <path d="M8.27078 8.57031C6.86078 11.4603 6.05078 14.7303 6.05078 18.2103C6.05078 21.6903 6.86078 24.9603 8.27078 27.8503" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                    <path d="M37.3516 28.5019C38.9616 25.4619 39.8916 21.9619 39.8916 18.2119C39.8916 14.4619 38.9616 10.9619 37.3516 7.92188" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                    <path d="M29.6406 41.4706V33.3506C29.6406 32.2706 30.5206 31.3906 31.6006 31.3906C32.6806 31.3906 33.5606 32.2706 33.5606 33.3506V37.9006L30.3206 41.1306" fill="white"></path>
+                    <path d="M29.6406 41.4706V33.3506C29.6406 32.2706 30.5206 31.3906 31.6006 31.3906C32.6806 31.3906 33.5606 32.2706 33.5606 33.3506V37.9006L30.3206 41.1306" stroke="#4832D9" stroke-width="1.5" stroke-miterlimit="10"></path>
+                    <path d="M30.5811 29.9023H14.8711V47.5923H30.5811V29.9023Z" fill="white" stroke="#4832D9" stroke-width="1.5" stroke-miterlimit="10"></path>
+                    <path d="M14.872 47.5898H30.582V40.7398H14.872V47.5898Z" fill="white" stroke="#4832D9" stroke-width="1.5" stroke-miterlimit="10"></path>
+                    <path d="M16.8308 35.1016H16.8408C17.9233 35.1016 18.8008 34.224 18.8008 33.1416V26.9816C18.8008 25.8991 17.9233 25.0216 16.8408 25.0216H16.8308C15.7483 25.0216 14.8708 25.8991 14.8708 26.9816V33.1416C14.8708 34.224 15.7483 35.1016 16.8308 35.1016Z" fill="white" stroke="#4832D9" stroke-width="1.5" stroke-miterlimit="10"></path>
+                    <path d="M20.7507 35.1016H20.7607C21.8432 35.1016 22.7207 34.224 22.7207 33.1416V26.9816C22.7207 25.8991 21.8432 25.0216 20.7607 25.0216H20.7507C19.6682 25.0216 18.7907 25.8991 18.7907 26.9816V33.1416C18.7907 34.224 19.6682 35.1016 20.7507 35.1016Z" fill="white" stroke="#4832D9" stroke-width="1.5" stroke-miterlimit="10"></path>
+                    <path d="M24.6804 35.1016H24.6904C25.7729 35.1016 26.6504 34.224 26.6504 33.1416V26.9816C26.6504 25.8991 25.7729 25.0216 24.6904 25.0216H24.6804C23.5979 25.0216 22.7204 25.8991 22.7204 26.9816V33.1416C22.7204 34.224 23.5979 35.1016 24.6804 35.1016Z" fill="white" stroke="#4832D9" stroke-width="1.5" stroke-miterlimit="10"></path>
+                    <path d="M28.612 35.1016H28.622C29.7045 35.1016 30.582 34.224 30.582 33.1416V20.7216C30.582 19.6391 29.7045 18.7616 28.622 18.7616H28.612C27.5296 18.7616 26.652 19.6391 26.652 20.7216V33.1416C26.652 34.224 27.5296 35.1016 28.612 35.1016Z" fill="white" stroke="#4832D9" stroke-width="1.5" stroke-miterlimit="10"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_653_22320">
+                      <rect width="44.05" height="48.34" fill="white" transform="translate(0.951172)"></rect>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <div class="card-body">
+                <div class="card-title">
+                  <h4 class="color-darck font-w-md font-sm pb-1">دراسة محفزات الشراء، ووضع خطة على أساسها</h4>
+                </div>
+                <div class="card-text">
+                  <p class="color-darck font-xs font-w-sm">لأن العميل إنسان عنده آمال وتطلعات، فإننا نربط المنتجات والمتجر باحتياجاته ونربط المنتج بأنه الشعور الجيد بتلبية الرغبة الذاتية    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex pb-4"> 
+            <div class="card card-style">
+              <div class="card-img">
+                <svg xmlns="http://www.w3.org/2000/svg" width="43" height="41" viewBox="0 0 43 41" fill="none">
+                  <g clip-path="url(#clip0_629_5205)">
+                    <path d="M39.3323 1H12.9023C11.7978 1 10.9023 1.89543 10.9023 3V32.36C10.9023 33.4646 11.7978 34.36 12.9023 34.36H39.3323C40.4369 34.36 41.3323 33.4646 41.3323 32.36V3C41.3323 1.89543 40.4369 1 39.3323 1Z" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                    <path d="M35.3716 8.92188H16.8516" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                    <path d="M35.3716 18.0312H16.8516" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                    <path d="M35.3716 26.4414H16.8516" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                    <path d="M1.14258 20.0205L1.14258 37.7305C1.14258 38.835 2.03801 39.7305 3.14258 39.7305H27.9626C29.0671 39.7305 29.9626 38.835 29.9626 37.7305V20.0205C29.9626 18.9159 29.0671 18.0205 27.9626 18.0205H3.14258C2.03801 18.0205 1.14258 18.9159 1.14258 20.0205Z" fill="#F8F8F8" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                    <path d="M1.66211 39.0705L9.86211 30.7505L13.9621 35.3505L19.4421 27.2305L29.0321 39.7305" stroke="#4832D9" stroke-width="2" stroke-linejoin="round"></path>
+                    <path d="M10.7433 27.1506C12.3339 27.1506 13.6233 25.8612 13.6233 24.2706C13.6233 22.68 12.3339 21.3906 10.7433 21.3906C9.1527 21.3906 7.86328 22.68 7.86328 24.2706C7.86328 25.8612 9.1527 27.1506 10.7433 27.1506Z" fill="#F2B705" stroke="#F2B705" stroke-width="2.09" stroke-miterlimit="10"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_629_5205">
+                      <rect width="42.19" height="40.73" fill="white" transform="translate(0.142578)"></rect>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <div class="card-body">
+                <div class="card-title">
+                  <h4 class="color-darck font-w-md font-sm pb-1">دراسة محفزات الشراء، ووضع خطة على أساسها</h4>
+                </div>
+                <div class="card-text">
+                  <p class="color-darck font-xs font-w-sm">لأن العميل إنسان عنده آمال وتطلعات، فإننا نربط المنتجات والمتجر باحتياجاته ونربط المنتج بأنه الشعور الجيد بتلبية الرغبة الذاتية   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex pb-4"> 
+            <div class="card card-style">
+              <div class="card-img"> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="38" height="41" viewBox="0 0 38 41" fill="none">
+                  <path d="M34.1766 1H3.22656C2.12199 1 1.22656 1.89543 1.22656 3V37.33C1.22656 38.4346 2.12199 39.33 3.22656 39.33H34.1766C35.2811 39.33 36.1766 38.4346 36.1766 37.33V3C36.1766 1.89543 35.2811 1 34.1766 1Z" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                  <path d="M29.3364 10.1016H8.06641" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                  <path d="M29.3364 20.5625H8.06641" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                  <path d="M29.3364 30.2227H8.06641" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                </svg>
+              </div>
+              <div class="card-body">
+                <div class="card-title">
+                  <h4 class="color-darck font-w-md font-sm pb-1">دراسة محفزات الشراء، ووضع خطة على أساسها</h4>
+                </div>
+                <div class="card-text">
+                  <p class="color-darck font-xs font-w-sm">لأن العميل إنسان عنده آمال وتطلعات، فإننا نربط المنتجات والمتجر باحتياجاته ونربط المنتج بأنه الشعور الجيد بتلبية الرغبة الذاتية </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="We-help-you-in-managing-accounts pt-5">
+      <div class="container"> 
+        <div class="parent-content-element"> 
+          <div class="content-element"> 
+            <div class="content-title pb-1">
+              <h3 class="color-darck font-md font-w-lg">كيف نفيدك في إدارة حسابات التواصل؟</h3>
+            </div>
+            <div class="content-text pb-2"> 
+              <p class="color-darck font-xs font-w-sm lin-md">حدد مجموعة التصاميم المطلوبة والهدف من كل واحد من التصاميم، بعدها تحصل على أكثر من تصور وبمجرد اعتماده يبدأ التنفيذ.                               </p>
+            </div>
+            <div class="parent-deescription"> 
+              <div class="description"> 
+                <div class="icon"> 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2ZM16.78 9.7L11.11 15.37C10.97 15.51 10.78 15.59 10.58 15.59C10.38 15.59 10.19 15.51 10.05 15.37L7.22 12.54C6.93 12.25 6.93 11.77 7.22 11.48C7.51 11.19 7.99 11.19 8.28 11.48L10.58 13.78L15.72 8.64C16.01 8.35 16.49 8.35 16.78 8.64C17.07 8.93 17.07 9.4 16.78 9.7Z" fill="#4832D9"></path>
+                  </svg>
+                </div>
+                <div class="content-text"> 
+                  <p class="color-darck font-w-smole font-sm">فريق كامل مختصين في كتابة المحتوى والتصاميم</p>
+                </div>
+              </div>
+              <div class="description"> 
+                <div class="icon"> 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2ZM16.78 9.7L11.11 15.37C10.97 15.51 10.78 15.59 10.58 15.59C10.38 15.59 10.19 15.51 10.05 15.37L7.22 12.54C6.93 12.25 6.93 11.77 7.22 11.48C7.51 11.19 7.99 11.19 8.28 11.48L10.58 13.78L15.72 8.64C16.01 8.35 16.49 8.35 16.78 8.64C17.07 8.93 17.07 9.4 16.78 9.7Z" fill="#4832D9"></path>
+                  </svg>
+                </div>
+                <div class="content-text"> 
+                  <p class="color-darck font-w-smole font-sm">فريق كامل مختصين في كتابة المحتوى والتصاميم</p>
+                </div>
+              </div>
+              <div class="description"> 
+                <div class="icon"> 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2ZM16.78 9.7L11.11 15.37C10.97 15.51 10.78 15.59 10.58 15.59C10.38 15.59 10.19 15.51 10.05 15.37L7.22 12.54C6.93 12.25 6.93 11.77 7.22 11.48C7.51 11.19 7.99 11.19 8.28 11.48L10.58 13.78L15.72 8.64C16.01 8.35 16.49 8.35 16.78 8.64C17.07 8.93 17.07 9.4 16.78 9.7Z" fill="#4832D9"></path>
+                  </svg>
+                </div>
+                <div class="content-text"> 
+                  <p class="color-darck font-w-smole font-sm">فريق كامل مختصين في كتابة المحتوى والتصاميم</p>
+                </div>
+              </div>
+              <div class="description"> 
+                <div class="icon"> 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2ZM16.78 9.7L11.11 15.37C10.97 15.51 10.78 15.59 10.58 15.59C10.38 15.59 10.19 15.51 10.05 15.37L7.22 12.54C6.93 12.25 6.93 11.77 7.22 11.48C7.51 11.19 7.99 11.19 8.28 11.48L10.58 13.78L15.72 8.64C16.01 8.35 16.49 8.35 16.78 8.64C17.07 8.93 17.07 9.4 16.78 9.7Z" fill="#4832D9"></path>
+                  </svg>
+                </div>
+                <div class="content-text"> 
+                  <p class="color-darck font-w-smole font-sm">فريق كامل مختصين في كتابة المحتوى والتصاميم</p>
+                </div>
+              </div>
+              <div class="description"> 
+                <div class="icon"> 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2ZM16.78 9.7L11.11 15.37C10.97 15.51 10.78 15.59 10.58 15.59C10.38 15.59 10.19 15.51 10.05 15.37L7.22 12.54C6.93 12.25 6.93 11.77 7.22 11.48C7.51 11.19 7.99 11.19 8.28 11.48L10.58 13.78L15.72 8.64C16.01 8.35 16.49 8.35 16.78 8.64C17.07 8.93 17.07 9.4 16.78 9.7Z" fill="#4832D9"></path>
+                  </svg>
+                </div>
+                <div class="content-text"> 
+                  <p class="color-darck font-w-smole font-sm">فريق كامل مختصين في كتابة المحتوى والتصاميم</p>
+                </div>
+              </div>
+              <div class="description"> 
+                <div class="icon"> 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2ZM16.78 9.7L11.11 15.37C10.97 15.51 10.78 15.59 10.58 15.59C10.38 15.59 10.19 15.51 10.05 15.37L7.22 12.54C6.93 12.25 6.93 11.77 7.22 11.48C7.51 11.19 7.99 11.19 8.28 11.48L10.58 13.78L15.72 8.64C16.01 8.35 16.49 8.35 16.78 8.64C17.07 8.93 17.07 9.4 16.78 9.7Z" fill="#4832D9"></path>
+                  </svg>
+                </div>
+                <div class="content-text"> 
+                  <p class="color-darck font-w-smole font-sm">فريق كامل مختصين في كتابة المحتوى والتصاميم </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-img"> <img src="../static/Socialmedia-Management-images/img-section.svg" alt=""/></div>
+        </div>
+      </div>
+    </section>
+    <section class="We-help-with-brand-strength pt-5"> 
+      <div class="container"> 
+        <div class="content-title pt-5">
+          <h3 class="color-darck font-w-lg font-bold text-center pb-5">كيف نساعد في قوة البراند عبر السوشال ميديا؟</h3>
+        </div>
+        <div class="row pt-3">
+          <div class="col-lg-6 d-flex pb-4"> 
+            <div class="card card-style">
+              <div class="content-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="58" height="56" viewBox="0 0 58 56" fill="none">
+                  <g clip-path="url(#clip0_629_4622)">
+                    <path d="M54.0898 38.6467C55.7293 35.1199 56.6566 31.2042 56.6566 27.0605C56.6566 23.2655 55.8771 19.6448 54.493 16.3594" fill="white"></path>
+                    <path d="M54.0898 38.6467C55.7293 35.1199 56.6566 31.2042 56.6566 27.0605C56.6566 23.2655 55.8771 19.6448 54.493 16.3594" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                    <path d="M43.3522 5.36283C39.1594 2.81494 34.2679 1.33984 29 1.33984C25.0357 1.33984 21.2864 2.17126 17.873 3.67318" fill="white"></path>
+                    <path d="M43.3522 5.36283C39.1594 2.81494 34.2679 1.33984 29 1.33984C25.0357 1.33984 21.2864 2.17126 17.873 3.67318" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                    <path d="M3.50733 16.3438C2.10974 19.6426 1.34375 23.2499 1.34375 27.0449C1.34375 31.1886 2.271 35.1043 3.91048 38.6311" fill="white"></path>
+                    <path d="M3.50733 16.3438C2.10974 19.6426 1.34375 23.2499 1.34375 27.0449C1.34375 31.1886 2.271 35.1043 3.91048 38.6311" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                    <path d="M17.873 52.3247C21.273 53.8132 25.0357 54.658 29 54.658C33.6094 54.658 37.95 53.5315 41.7665 51.5469" fill="white"></path>
+                    <path d="M17.873 52.3247C21.273 53.8132 25.0357 54.658 29 54.658C33.6094 54.658 37.95 53.5315 41.7665 51.5469" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                    <path d="M27.9395 25.9883L47.0488 43.2603" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                    <path d="M27.9386 36.5823C33.8018 36.5823 38.5549 31.8392 38.5549 25.9884C38.5549 20.1376 33.8018 15.3945 27.9386 15.3945C22.0754 15.3945 17.3223 20.1376 17.3223 25.9884C17.3223 31.8392 22.0754 36.5823 27.9386 36.5823Z" fill="#F2B705" stroke="#F2B705" stroke-width="1.91" stroke-miterlimit="10"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_629_4622">
+                      <rect width="58" height="56" fill="white"></rect>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <div class="card-body">
+                <div class="cartd-title">
+                  <h4 class="color-darck font-w-lg font-sm">البحث الموسع</h4>
+                </div>
+                <div class="card-text">
+                  <p class="color-darck font-xs font-w-sm line-lg">كل الأشياء العظيمة تبدأ من عميلة البحث الجيد، لذلك قبل كتابة أي حرف أو وضع أي خطط، ندرس البراند بكل تفاصيله، وندرس حالة المنافسة، ونقف على نقاط القوة والضعف والفرص المتاحة لتعزيز العلامة التجارية</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex pb-4">
+            <div class="card card-style">
+              <div class="content-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58" fill="none">
+                  <g clip-path="url(#clip0_629_4650)">
+                    <path d="M20.9018 38.4715C22.7988 38.4715 24.3367 36.9336 24.3367 35.0365C24.3367 33.1394 22.7988 31.6016 20.9018 31.6016C19.0047 31.6016 17.4668 33.1394 17.4668 35.0365C17.4668 36.9336 19.0047 38.4715 20.9018 38.4715Z" fill="white" stroke="#4832D9" stroke-width="1.5" stroke-miterlimit="10"></path>
+                    <path d="M35.977 22.9891C37.3611 22.9891 38.4832 21.867 38.4832 20.4828C38.4832 19.0986 37.3611 17.9766 35.977 17.9766C34.5928 17.9766 33.4707 19.0986 33.4707 20.4828C33.4707 21.867 34.5928 22.9891 35.977 22.9891Z" fill="white" stroke="#4832D9" stroke-width="1.5" stroke-miterlimit="10"></path>
+                    <path d="M39.9854 32.4531L34.8457 37.6056" stroke="#4832D9" stroke-width="1.5" stroke-miterlimit="10"></path>
+                    <path d="M34.8457 32.4531L39.9854 37.6056" stroke="#4832D9" stroke-width="1.5" stroke-miterlimit="10"></path>
+                    <path d="M26.4863 35.3945H33.1273" stroke="#4832D9" stroke-width="1.5" stroke-miterlimit="10"></path>
+                    <path d="M25.3418 31.107L32.5425 23.9062" stroke="#4832D9" stroke-width="1.5" stroke-miterlimit="10"></path>
+                    <path d="M40.5826 12.4805H16.8686C15.4634 12.4805 14.3242 13.6196 14.3242 15.0249V40.6217C14.3242 42.027 15.4634 43.1661 16.8686 43.1661H40.5826C41.9879 43.1661 43.127 42.027 43.127 40.6217V15.0249C43.127 13.6196 41.9879 12.4805 40.5826 12.4805Z" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                    <path d="M24.9988 10.3555H32.4794C33.1791 10.3555 33.7516 10.928 33.7516 11.6277V14.6301H23.7266V11.6277C23.7266 10.928 24.2991 10.3555 24.9988 10.3555Z" fill="white" stroke="#4832D9" stroke-width="1.5" stroke-miterlimit="10"></path>
+                    <path d="M56.728 28.9961C56.728 44.3135 45.5835 56.7175 29.0066 56.7175C21.4624 56.7175 14.6306 53.7024 9.63086 48.8298" stroke="#4832D9" stroke-width="2" stroke-linejoin="round"></path>
+                    <path d="M2.02209 35.4322C1.52593 33.3713 1.27148 31.2085 1.27148 28.9949C1.27148 13.6902 13.6882 1.27344 28.9929 1.27344C38.28 1.27344 46.4985 5.84067 51.5237 12.8505" stroke="#4832D9" stroke-width="2" stroke-linejoin="round"></path>
+                    <path d="M53.635 6.89844L52.6808 14.15L45.6582 12.1527L53.635 6.89844Z" fill="#F2B705" stroke="#F2B705" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M8.62431 53.9561L7.09766 46.4755L14.7055 46.043L8.62431 53.9561Z" fill="#F2B705" stroke="#F2B705" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_629_4650">
+                      <rect width="58" height="58" fill="white"></rect>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <div class="card-body">
+                <div class="card-title">
+                  <h4 class="color-darck font-w-lg font-sm">البحث الموسع</h4>
+                </div>
+                <div class="card-text">
+                  <p class="color-darck font-xs font-w-sm line-lg">كل الأشياء العظيمة تبدأ من عميلة البحث الجيد، لذلك قبل كتابة أي حرف أو وضع أي خطط، ندرس البراند بكل تفاصيله، وندرس حالة المنافسة، ونقف على نقاط القوة والضعف والفرص المتاحة لتعزيز العلامة التجارية</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex pb-4">
+            <div class="card card-style">
+              <div class="content-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="57" height="51" viewBox="0 0 57 51" fill="none">
+                  <g clip-path="url(#clip0_629_4635)">
+                    <path d="M1.25586 13.598L1.25586 47.2171C1.25586 48.6181 2.39207 49.7539 3.79366 49.7539H45.19C46.5915 49.7539 47.7278 48.6181 47.7278 47.2171V13.598C47.7278 12.197 46.5915 11.0612 45.19 11.0612H3.79366C2.39207 11.0612 1.25586 12.197 1.25586 13.598Z" fill="white" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                    <path d="M24.4996 29.6975C28.0106 29.6975 30.8567 26.8524 30.8567 23.3429C30.8567 19.8333 28.0106 16.9883 24.4996 16.9883C20.9887 16.9883 18.1426 19.8333 18.1426 23.3429C18.1426 26.8524 20.9887 29.6975 24.4996 29.6975Z" fill="white" stroke="#4832D9" stroke-width="2.2" stroke-miterlimit="10"></path>
+                    <path d="M24.4988 33.0742C30.0518 33.0742 34.5495 37.5827 34.5495 43.121V43.7992H14.4355V43.121C14.4355 37.5702 18.9458 33.0742 24.4862 33.0742H24.4988Z" fill="white" stroke="#4832D9" stroke-width="2.2" stroke-miterlimit="10"></path>
+                    <path d="M55.7442 11.0558C55.7442 5.64236 51.3541 1.25391 45.9385 1.25391C40.523 1.25391 36.1328 5.64236 36.1328 11.0558C36.1328 16.4692 40.523 20.8577 45.9385 20.8577C51.3541 20.8577 55.7442 16.4692 55.7442 11.0558Z" fill="#F2B705" stroke="#F2B705" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M40.1032 13.346C39.6384 13.0069 39.3494 12.5674 39.2363 12.0273L40.5304 11.5878C40.6183 11.8892 40.7565 12.1404 40.9701 12.3413C41.1711 12.5422 41.4349 12.6427 41.7616 12.6427C41.9751 12.6427 42.1762 12.5925 42.3395 12.5046C42.5154 12.4166 42.641 12.2911 42.7415 12.1152C42.842 11.9394 42.8797 11.7385 42.8797 11.4999C42.8797 11.2738 42.8295 11.0729 42.7415 10.8971C42.6536 10.7213 42.5154 10.5831 42.3395 10.4952C42.1636 10.3947 41.9751 10.3571 41.7616 10.3571C41.5354 10.3571 41.3218 10.4073 41.146 10.5203C40.9701 10.6208 40.8319 10.7715 40.7314 10.9599L39.3745 10.671L39.9524 6.82812H44.0984V8.07141H40.9575L40.7816 9.25191C40.7565 9.3775 40.7439 9.46541 40.7314 9.5282C40.7314 9.59099 40.7062 9.6789 40.6811 9.80449C40.8444 9.66634 41.0329 9.55332 41.259 9.47797C41.4726 9.39006 41.7616 9.35238 42.1008 9.35238C42.5154 9.35238 42.8923 9.44029 43.2315 9.60355C43.5707 9.76681 43.8345 10.018 44.0355 10.3571C44.2365 10.6836 44.3371 11.0855 44.3371 11.5501C44.3371 12.0148 44.2365 12.4166 44.0355 12.7683C43.8345 13.1199 43.5456 13.3962 43.1687 13.5846C42.7918 13.773 42.3395 13.8734 41.8118 13.8734C41.1208 13.8734 40.5429 13.7102 40.0906 13.3711L40.1032 13.346Z" fill="#4832D9"></path>
+                    <path d="M45.5801 6.80469H48.0299L49.1606 10.1578C49.2988 10.5597 49.4119 10.8736 49.4873 11.0997C49.5752 11.3257 49.638 11.5016 49.6757 11.6271C49.726 11.5016 49.7888 11.3257 49.8768 11.0997C49.9647 10.8736 50.0652 10.5597 50.2034 10.1578L51.3592 6.80469H53.7211V13.6993H52.2261V8.07309L50.3039 13.6993H48.9722L47.0751 8.08565V13.6993H45.5801V6.80469Z" fill="#4832D9"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_629_4635">
+                      <rect width="57" height="51" fill="white"></rect>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <div class="card-body">
+                <div class="card-title">
+                  <h4 class="color-darck font-w-lg font-sm">البحث الموسع</h4>
+                </div>
+                <div class="card-text">
+                  <p class="color-darck font-xs font-w-sm line-lg">كل الأشياء العظيمة تبدأ من عميلة البحث الجيد، لذلك قبل كتابة أي حرف أو وضع أي خطط، ندرس البراند بكل تفاصيله، وندرس حالة المنافسة، ونقف على نقاط القوة والضعف والفرص المتاحة لتعزيز العلامة التجارية.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex pb-4"> 
+            <div class="card card-style">
+              <div class="content-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="59" height="50" viewBox="0 0 59 50" fill="none">
+                  <g clip-path="url(#clip0_629_4672)">
+                    <path d="M43.5148 1.24219H3.70403C2.34008 1.24219 1.23438 2.35425 1.23438 3.72604V36.4881C1.23438 37.8599 2.34008 38.9719 3.70403 38.9719H43.5148C44.8788 38.9719 45.9845 37.8599 45.9845 36.4881V3.72604C45.9845 2.35425 44.8788 1.24219 43.5148 1.24219Z" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                    <path d="M23.6094 38.9727V45.3686" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                    <path d="M17.707 48.7578H29.512" stroke="#4832D9" stroke-width="2" stroke-miterlimit="10"></path>
+                    <path d="M23.9546 21.5458C26.5734 21.5458 28.6964 19.4107 28.6964 16.7768C28.6964 14.143 26.5734 12.0078 23.9546 12.0078C21.3358 12.0078 19.2129 14.143 19.2129 16.7768C19.2129 19.4107 21.3358 21.5458 23.9546 21.5458Z" fill="white" stroke="#4832D9" stroke-width="1.5" stroke-miterlimit="10"></path>
+                    <path d="M23.955 24.0898C28.104 24.0898 31.4628 27.4679 31.4628 31.6408V32.15H16.4473V31.6408C16.4473 27.4679 19.806 24.0898 23.955 24.0898Z" fill="white" stroke="#4832D9" stroke-width="1.5" stroke-miterlimit="10"></path>
+                    <path d="M33.9688 37.0214L40.1058 30.3274L44.4154 34.6866L53.6148 23.4844" stroke="#F2B705" stroke-width="2" stroke-miterlimit="10"></path>
+                    <path d="M50.0215 19.7822L57.7638 19.2109L57.2082 26.9978L50.0215 19.7822Z" fill="#F2B705" stroke="#F2B705" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_629_4672">
+                      <rect width="59" height="50" fill="white"></rect>
+                    </clipPath>
+                  </defs></svg>
+                </svg>
+              </div>
+              <div class="card-body">
+                <div class="card-title">
+                  <h4 class="color-darck font-w-lg font-sm">البحث الموسع</h4>
+                </div>
+                <div class="card-text">
+                  <p class="color-darck font-xs font-w-sm line-lg">كل الأشياء العظيمة تبدأ من عميلة البحث الجيد، لذلك قبل كتابة أي حرف أو وضع أي خطط، ندرس البراند بكل تفاصيله، وندرس حالة المنافسة، ونقف على نقاط القوة والضعف والفرص المتاحة لتعزيز العلامة التجارية.   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Success-stories">
+      <div class="container">
+        <div class="content-parent"> 
+          <div class="conent-title"> 
+            <h4 class="color-darck font-bold font-w-lg pb-4 mt-4">قصص نجاح المتاجر</h4>
+          </div>
+          <div class="content-btn btn-outline"><a class="font-xs.font-w-sm" href="#">المزيد من قصص النجاح</a></div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 pb-4">
+            <div class="card card-gray">
+              <div class="card-hearder"><img class="width-md" src="../static/Home-images/Success-stories-card-tow.svg" alt="alt" title="img"/></div>
+              <div class="card-body">
+                <div class="card-title">
+                  <h5 class="color-darck font-sm font-w-md">متجر فهد القنون</h5>
+                </div>
+                <div class="card-text">
+                  <p class="color darck font-xs font-w-sm">التوصل إلى المزيج التسويقي الصحيح، سواء منصات التسويق، أو الأنشطة التسويقية وتخصيص الميزانية لتحقيق الهدف البيعي قريب المدى، وخطة النمو بعيدة المدى.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 pb-4">   
+            <div class="card card-gray">
+              <div class="card-hearder"><img class="width-md" src="../static/Home-images/Success-stories-card-img.svg" alt="alt" title="img"/></div>
+              <div class="card-body"> 
+                <div class="card-title">
+                  <h5 class="color-darck font-sm font-w-md">متجر العسل البري</h5>
+                </div>
+                <div class="thcard-text"> 
+                  <p class="color darck font-xs font-w-sm">التوصل إلى المزيج التسويقي الصحيح، سواء منصات التسويق، أو الأنشطة التسويقية وتخصيص الميزانية لتحقيق الهدف البيعي قريب المدى، وخطة النمو بعيدة المدى</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 pb-4">   
+            <div class="card card-gray">
+              <div class="card-hearder"><img class="width-md" src="../static/Home-images/Success-stories-card-three.svg" alt="alt" title="img"/></div>
+              <div class="card-body">
+                <div class="card-title">
+                  <h5 class="color-darck font-sm font-w-md">متجر فهد القنون</h5>
+                </div>
+                <div class="card-text"> 
+                  <p class="color darck font-xs font-w-sm">التوصل إلى المزيج التسويقي الصحيح، سواء منصات التسويق، أو الأنشطة التسويقية وتخصيص الميزانية لتحقيق الهدف البيعي قريب المدى، وخطة النمو بعيدة المدى.                 </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Connect-with-us">
+      <div class="container"> 
+        <div class="row">
+          <div class="col-lg-6 pb-5 d-flex align-items-center">
+            <div class="content">
+              <div class="content-title"> 
+                <h2 class="color-darck font-bold font-w-lg pb-1">جاهز تتواصل معنا؟</h2>
+              </div>
+              <div class="content-text">
+                <p class="colo-darck font-smole font-w-sm pb-5">احصل على استشارة تسويقية مجانية حول متجرك الإلكتروني واستطلع فرص النمو مع مكاسب</p>
+              </div>
+              <div class="content-btn btn-outline"><a class="font-xs font-w-md color-purple" href="#">تواصل معنا</a></div>
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex">
+            <div class="content-img"> <img src="../static/Home-images/Connect with us-img.svg" alt="img" title="img"/></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer> 
+      <div class="container"> 
+        <div class="parent-footer"> 
+          <div class="logo-socialmedia"> <img src="../static/Home-images/logo-footer.svg" alt="img-footer" title="img-footer"/>
+            <div class="socialmedia"> 
+              <div class="social"> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+                  <path d="M16.6875 15.8186H13.9528V11.5323C13.9528 10.5102 13.9323 9.19465 12.5264 9.19465C11.1011 9.19465 10.8835 10.307 10.8835 11.4574V15.8186H8.14773V7.0048H10.7747V8.20542H10.8107C11.178 7.51378 12.0708 6.78212 13.4048 6.78212C16.1755 6.78212 16.6886 8.60666 16.6886 10.9802V15.8186H16.6875ZM5.05895 5.79904C4.85018 5.79931 4.64341 5.75838 4.45049 5.67858C4.25757 5.59878 4.0823 5.48169 3.93473 5.33402C3.78715 5.18635 3.67018 5.011 3.5905 4.81804C3.51083 4.62507 3.47002 4.41827 3.47043 4.2095C3.47063 3.89532 3.564 3.58826 3.73871 3.32714C3.91343 3.06602 4.16165 2.86258 4.452 2.74254C4.74234 2.62249 5.06175 2.59124 5.36986 2.65273C5.67796 2.71423 5.96091 2.8657 6.18292 3.088C6.40494 3.3103 6.55605 3.59345 6.61714 3.90163C6.67823 4.20981 6.64657 4.52919 6.52615 4.81938C6.40573 5.10956 6.20197 5.35752 5.94063 5.5319C5.67928 5.70628 5.3721 5.79925 5.05792 5.79904H5.05895ZM6.42991 15.8186H3.68695V7.0048H6.43094V15.8186H6.42991ZM18.0575 0.078125H2.31496C1.55969 0.078125 0.951172 0.673306 0.951172 1.40907V17.2183C0.951172 17.9541 1.56072 18.5493 2.31393 18.5493H18.0534C18.8066 18.5493 19.4223 17.9541 19.4223 17.2183V1.40907C19.4223 0.673306 18.8066 0.078125 18.0534 0.078125H18.0565H18.0575Z" fill="white"></path>
+                </svg>
+              </div>
+              <div class="social">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path d="M12.426 22.3333C11.2048 22.3333 10.3901 21.7576 9.6625 21.2496C9.14634 20.8833 8.66096 20.5354 8.08938 20.4389C7.81724 20.3921 7.54149 20.3695 7.26536 20.3712C6.78101 20.3712 6.39619 20.4441 6.1222 20.4995C5.94775 20.5303 5.80204 20.559 5.68711 20.559C5.56807 20.559 5.41722 20.5262 5.35873 20.325C5.30742 20.1608 5.27561 20.0049 5.2438 19.854C5.1617 19.4743 5.09295 19.2414 4.95031 19.2178C3.42234 18.9848 2.50802 18.6329 2.32946 18.2162C2.3151 18.1711 2.29765 18.1239 2.29765 18.088C2.28739 17.9597 2.37975 17.855 2.50802 17.8314C3.71993 17.6303 4.8087 16.9859 5.72815 15.9248C6.44237 15.1008 6.79024 14.3045 6.82205 14.2183C6.82205 14.208 6.83129 14.208 6.83129 14.208C7.00574 13.8478 7.04165 13.541 6.93596 13.2896C6.73996 12.8175 6.08937 12.6164 5.64606 12.4789C5.53215 12.4481 5.43569 12.4112 5.3536 12.3835C4.97391 12.2326 4.34179 11.9114 4.42491 11.4681C4.48443 11.148 4.90927 10.9191 5.25714 10.9191C5.3536 10.9191 5.43569 10.9335 5.50342 10.9704C5.89337 11.148 6.24534 11.2393 6.54704 11.2393C6.92262 11.2393 7.10117 11.0977 7.14632 11.0525C7.13677 10.8495 7.1248 10.6467 7.11041 10.444C7.01805 9.04327 6.91338 7.30494 7.35669 6.30852C8.68866 3.32543 11.5158 3.08633 12.3531 3.08633L12.7184 3.07812H12.7698C13.6061 3.07812 16.4332 3.31107 17.7652 6.29928C18.2136 7.2957 18.1038 9.03917 18.0115 10.4348L18.0032 10.5035C17.993 10.6903 17.9796 10.8688 17.9704 11.0525C18.0166 11.0884 18.1808 11.2259 18.5194 11.2301C18.8129 11.2218 19.1331 11.1254 19.4984 10.9602C19.5995 10.9164 19.7084 10.8934 19.8185 10.8924C19.9468 10.8924 20.0751 10.9232 20.1849 10.9602H20.1941C20.5009 11.0751 20.7021 11.2896 20.7021 11.5143C20.7113 11.7247 20.5461 12.0448 19.7642 12.3609C19.6821 12.3917 19.5856 12.4296 19.4717 12.4563C19.0366 12.5897 18.387 12.8001 18.1808 13.267C18.0669 13.5133 18.113 13.8293 18.2865 14.1854C18.2865 14.1957 18.2957 14.1957 18.2957 14.1957C18.346 14.3229 19.6677 17.3245 22.6097 17.814C22.6699 17.8241 22.7243 17.8557 22.763 17.9028C22.8017 17.95 22.8219 18.0096 22.8201 18.0705C22.8201 18.1157 22.8109 18.1619 22.7883 18.2029C22.6097 18.6236 21.7036 18.9664 20.1664 19.2044C20.0248 19.227 19.9561 19.461 19.874 19.8407C19.8411 19.999 19.8028 20.1561 19.759 20.3117C19.7139 20.4625 19.6174 20.5446 19.4532 20.5446H19.4296C19.325 20.5446 19.1833 20.5313 18.9956 20.4943C18.6195 20.4142 18.2359 20.3743 17.8514 20.3753C17.5815 20.3753 17.3024 20.3989 17.0284 20.4441C16.4609 20.5364 15.9714 20.8884 15.4542 21.2547C14.7185 21.7576 13.8996 22.3333 12.6866 22.3333H12.426Z" fill="white"></path>
+                </svg>
+              </div>
+              <div class="social"> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25" viewBox="0 0 26 25" fill="none">
+                  <path d="M12.9297 2.05469C15.7178 2.05469 16.0657 2.06495 17.1596 2.11626C18.2525 2.16757 18.9964 2.33894 19.6511 2.59343C20.3284 2.85408 20.899 3.20708 21.4695 3.77661C21.9913 4.28959 22.3951 4.91011 22.6527 5.59499C22.9062 6.24866 23.0786 6.99366 23.1299 8.08654C23.1781 9.18044 23.1914 9.52831 23.1914 12.3164C23.1914 15.1045 23.1812 15.4524 23.1299 16.5463C23.0786 17.6392 22.9062 18.3832 22.6527 19.0379C22.3958 19.7231 21.992 20.3438 21.4695 20.8562C20.9564 21.3779 20.3359 21.7816 19.6511 22.0394C18.9975 22.2929 18.2525 22.4653 17.1596 22.5166C16.0657 22.5648 15.7178 22.5782 12.9297 22.5782C10.1416 22.5782 9.79372 22.5679 8.69982 22.5166C7.60694 22.4653 6.86297 22.2929 6.20827 22.0394C5.52312 21.7823 4.90249 21.3785 4.38989 20.8562C3.86798 20.3434 3.46421 19.7228 3.20671 19.0379C2.95222 18.3842 2.78085 17.6392 2.72954 16.5463C2.68131 15.4524 2.66797 15.1045 2.66797 12.3164C2.66797 9.52831 2.67823 9.18044 2.72954 8.08654C2.78085 6.99264 2.95222 6.24969 3.20671 5.59499C3.4635 4.90969 3.86736 4.289 4.38989 3.77661C4.90264 3.25452 5.52322 2.85072 6.20827 2.59343C6.86297 2.33894 7.60592 2.16757 8.69982 2.11626C9.79372 2.06803 10.1416 2.05469 12.9297 2.05469ZM12.9297 7.18556C11.5689 7.18556 10.2639 7.72613 9.30164 8.68835C8.33941 9.65058 7.79884 10.9556 7.79884 12.3164C7.79884 13.6772 8.33941 14.9823 9.30164 15.9445C10.2639 16.9067 11.5689 17.4473 12.9297 17.4473C14.2905 17.4473 15.5956 16.9067 16.5578 15.9445C17.52 14.9823 18.0606 13.6772 18.0606 12.3164C18.0606 10.9556 17.52 9.65058 16.5578 8.68835C15.5956 7.72613 14.2905 7.18556 12.9297 7.18556ZM19.5998 6.92901C19.5998 6.58882 19.4647 6.26255 19.2241 6.022C18.9836 5.78144 18.6573 5.6463 18.3171 5.6463C17.9769 5.6463 17.6507 5.78144 17.4101 6.022C17.1695 6.26255 17.0344 6.58882 17.0344 6.92901C17.0344 7.26921 17.1695 7.59548 17.4101 7.83603C17.6507 8.07659 17.9769 8.21173 18.3171 8.21173C18.6573 8.21173 18.9836 8.07659 19.2241 7.83603C19.4647 7.59548 19.5998 7.26921 19.5998 6.92901ZM12.9297 9.23791C13.7462 9.23791 14.5292 9.56225 15.1066 10.1396C15.6839 10.7169 16.0082 11.5 16.0082 12.3164C16.0082 13.1329 15.6839 13.9159 15.1066 14.4933C14.5292 15.0706 13.7462 15.3949 12.9297 15.3949C12.1132 15.3949 11.3302 15.0706 10.7529 14.4933C10.1755 13.9159 9.85119 13.1329 9.85119 12.3164C9.85119 11.5 10.1755 10.7169 10.7529 10.1396C11.3302 9.56225 12.1132 9.23791 12.9297 9.23791Z" fill="white"></path>
+                </svg>
+              </div>
+              <div class="social"> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25" viewBox="0 0 26 25" fill="none">
+                  <path d="M16.792 21.5493V14.4009H19.1861L19.5442 11.622H16.792V9.84882C16.792 9.0443 17.0157 8.4953 18.1692 8.4953H19.6407V6.0099C18.9283 5.93432 18.2124 5.89767 17.496 5.9001C15.3749 5.9001 13.9229 7.19513 13.9229 9.57381V11.622H11.5237V14.4009H13.9229V21.5493H5.0916C4.81945 21.5493 4.55843 21.4411 4.36599 21.2487C4.17354 21.0563 4.06543 20.7952 4.06543 20.5231V4.1043C4.06543 3.83214 4.17354 3.57113 4.36599 3.37868C4.55843 3.18624 4.81945 3.07813 5.0916 3.07812H21.5104C21.7825 3.07813 22.0436 3.18624 22.236 3.37868C22.4284 3.57113 22.5366 3.83214 22.5366 4.1043V20.5231C22.5366 20.7952 22.4284 21.0563 22.236 21.2487C22.0436 21.4411 21.7825 21.5493 21.5104 21.5493H16.792Z" fill="white"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="Services">
+            <p class="color-wight font-md font-w-lg">الخدمات</p>
+            <div class="parent-content">  
+              <div class="content">
+                <ul> 
+                  <li class="the-footer-item"><a class="the-footer-link font-xs font-w-sm color-wight">التصاميم والتصوير</a></li>
+                  <li class="the-footer-item"><a class="the-footer-link font-xs font-w-sm color-wight">إدارة محتوى وسائل التواصل</a></li>
+                  <li class="the-footer-item"><a class="the-footer-link font-xs font-w-sm color-wight">إدارة المتاجر الإلكترونية</a></li>
+                </ul>
+              </div>
+              <div class="content-tow">
+                <ul> 
+                  <li class="the-footer-item"><a class="the-footer-link font-xs font-w-sm color-wight">إدارة الحملات الإعلانية</a></li>
+                  <li class="the-footer-item"><a class="the-footer-link font-xs font-w-sm color-wight">تحسين محركات البحث SEO</a></li>
+                  <li class="the-footer-item"><a class="the-footer-link font-xs font-w-sm color-wight">إنتاج المحتوى الإعلاني</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="About-company">
+            <p class="color-wight font-md font-w-lg">عن الشركة</p>
+            <ul>  
+              <li class="the-footer-item"><a class="the-footer-link font-xs font-w-sm color-wight">من نحن </a></li>
+              <li class="the-footer-item"><a class="the-footer-link font-xs font-w-sm color-wight">قصص نجاح متاجرنا</a></li>
+            </ul>
+          </div>
+          <div class="Newsletter">
+            <div class="content">
+              <p class="font-md font-w-lg color-wight">النشرة البريدية </p>
+              <p class="font-xs font-w-sm color-wight">اشترك في نشرتنا البريدية واحصل على مقالات حصرية عن تسويق المتاجر الإلكترونية.</p>
+            </div>
+            <div class="content-input">
+              <input class="form-control" type="email" placeholder="البريد الالكتروني"/>
+              <div class="content-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                  <path d="M0 8C0 3.58172 3.58172 0 8 0H42C46.4183 0 50 3.58172 50 8V50H0V8Z" fill="white"></path>
+                  <path d="M27.8457 29.1333L24.0249 25.3125L27.8457 21.4917L26.6665 20.3125L21.6665 25.3125L26.6665 30.3125L27.8457 29.1333Z" fill="#4832D9"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="privacy-policy">
+          <div class="content-design"> 
+            <p class="font-w-sm color-wight">كل الحقوق محفوظة لمكاسب . صمم بواسط بيانات</p>
+          </div>
+          <div class="content-description"> 
+            <p class="font-w-sm color-wight">سياسة الخصوصية </p>
+            <p class="font-w-sm color-wight">الشروط والأحكام</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="footer-smole-screen"> 
+      <div class="container"> 
+        <div class="parent-element-footer"> 
+          <div class="first-content">
+            <div class="logo-socialmedia"> <img src="../static/Home-images/logo-footer.svg" alt="img-footer" title="img-footer"/></div>
+            <div class="socialmedia"> 
+              <div class="social"> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+                  <path d="M16.6875 15.8186H13.9528V11.5323C13.9528 10.5102 13.9323 9.19465 12.5264 9.19465C11.1011 9.19465 10.8835 10.307 10.8835 11.4574V15.8186H8.14773V7.0048H10.7747V8.20542H10.8107C11.178 7.51378 12.0708 6.78212 13.4048 6.78212C16.1755 6.78212 16.6886 8.60666 16.6886 10.9802V15.8186H16.6875ZM5.05895 5.79904C4.85018 5.79931 4.64341 5.75838 4.45049 5.67858C4.25757 5.59878 4.0823 5.48169 3.93473 5.33402C3.78715 5.18635 3.67018 5.011 3.5905 4.81804C3.51083 4.62507 3.47002 4.41827 3.47043 4.2095C3.47063 3.89532 3.564 3.58826 3.73871 3.32714C3.91343 3.06602 4.16165 2.86258 4.452 2.74254C4.74234 2.62249 5.06175 2.59124 5.36986 2.65273C5.67796 2.71423 5.96091 2.8657 6.18292 3.088C6.40494 3.3103 6.55605 3.59345 6.61714 3.90163C6.67823 4.20981 6.64657 4.52919 6.52615 4.81938C6.40573 5.10956 6.20197 5.35752 5.94063 5.5319C5.67928 5.70628 5.3721 5.79925 5.05792 5.79904H5.05895ZM6.42991 15.8186H3.68695V7.0048H6.43094V15.8186H6.42991ZM18.0575 0.078125H2.31496C1.55969 0.078125 0.951172 0.673306 0.951172 1.40907V17.2183C0.951172 17.9541 1.56072 18.5493 2.31393 18.5493H18.0534C18.8066 18.5493 19.4223 17.9541 19.4223 17.2183V1.40907C19.4223 0.673306 18.8066 0.078125 18.0534 0.078125H18.0565H18.0575Z" fill="white"></path>
+                </svg>
+              </div>
+              <div class="social">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path d="M12.426 22.3333C11.2048 22.3333 10.3901 21.7576 9.6625 21.2496C9.14634 20.8833 8.66096 20.5354 8.08938 20.4389C7.81724 20.3921 7.54149 20.3695 7.26536 20.3712C6.78101 20.3712 6.39619 20.4441 6.1222 20.4995C5.94775 20.5303 5.80204 20.559 5.68711 20.559C5.56807 20.559 5.41722 20.5262 5.35873 20.325C5.30742 20.1608 5.27561 20.0049 5.2438 19.854C5.1617 19.4743 5.09295 19.2414 4.95031 19.2178C3.42234 18.9848 2.50802 18.6329 2.32946 18.2162C2.3151 18.1711 2.29765 18.1239 2.29765 18.088C2.28739 17.9597 2.37975 17.855 2.50802 17.8314C3.71993 17.6303 4.8087 16.9859 5.72815 15.9248C6.44237 15.1008 6.79024 14.3045 6.82205 14.2183C6.82205 14.208 6.83129 14.208 6.83129 14.208C7.00574 13.8478 7.04165 13.541 6.93596 13.2896C6.73996 12.8175 6.08937 12.6164 5.64606 12.4789C5.53215 12.4481 5.43569 12.4112 5.3536 12.3835C4.97391 12.2326 4.34179 11.9114 4.42491 11.4681C4.48443 11.148 4.90927 10.9191 5.25714 10.9191C5.3536 10.9191 5.43569 10.9335 5.50342 10.9704C5.89337 11.148 6.24534 11.2393 6.54704 11.2393C6.92262 11.2393 7.10117 11.0977 7.14632 11.0525C7.13677 10.8495 7.1248 10.6467 7.11041 10.444C7.01805 9.04327 6.91338 7.30494 7.35669 6.30852C8.68866 3.32543 11.5158 3.08633 12.3531 3.08633L12.7184 3.07812H12.7698C13.6061 3.07812 16.4332 3.31107 17.7652 6.29928C18.2136 7.2957 18.1038 9.03917 18.0115 10.4348L18.0032 10.5035C17.993 10.6903 17.9796 10.8688 17.9704 11.0525C18.0166 11.0884 18.1808 11.2259 18.5194 11.2301C18.8129 11.2218 19.1331 11.1254 19.4984 10.9602C19.5995 10.9164 19.7084 10.8934 19.8185 10.8924C19.9468 10.8924 20.0751 10.9232 20.1849 10.9602H20.1941C20.5009 11.0751 20.7021 11.2896 20.7021 11.5143C20.7113 11.7247 20.5461 12.0448 19.7642 12.3609C19.6821 12.3917 19.5856 12.4296 19.4717 12.4563C19.0366 12.5897 18.387 12.8001 18.1808 13.267C18.0669 13.5133 18.113 13.8293 18.2865 14.1854C18.2865 14.1957 18.2957 14.1957 18.2957 14.1957C18.346 14.3229 19.6677 17.3245 22.6097 17.814C22.6699 17.8241 22.7243 17.8557 22.763 17.9028C22.8017 17.95 22.8219 18.0096 22.8201 18.0705C22.8201 18.1157 22.8109 18.1619 22.7883 18.2029C22.6097 18.6236 21.7036 18.9664 20.1664 19.2044C20.0248 19.227 19.9561 19.461 19.874 19.8407C19.8411 19.999 19.8028 20.1561 19.759 20.3117C19.7139 20.4625 19.6174 20.5446 19.4532 20.5446H19.4296C19.325 20.5446 19.1833 20.5313 18.9956 20.4943C18.6195 20.4142 18.2359 20.3743 17.8514 20.3753C17.5815 20.3753 17.3024 20.3989 17.0284 20.4441C16.4609 20.5364 15.9714 20.8884 15.4542 21.2547C14.7185 21.7576 13.8996 22.3333 12.6866 22.3333H12.426Z" fill="white"></path>
+                </svg>
+              </div>
+              <div class="social"> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25" viewBox="0 0 26 25" fill="none">
+                  <path d="M12.9297 2.05469C15.7178 2.05469 16.0657 2.06495 17.1596 2.11626C18.2525 2.16757 18.9964 2.33894 19.6511 2.59343C20.3284 2.85408 20.899 3.20708 21.4695 3.77661C21.9913 4.28959 22.3951 4.91011 22.6527 5.59499C22.9062 6.24866 23.0786 6.99366 23.1299 8.08654C23.1781 9.18044 23.1914 9.52831 23.1914 12.3164C23.1914 15.1045 23.1812 15.4524 23.1299 16.5463C23.0786 17.6392 22.9062 18.3832 22.6527 19.0379C22.3958 19.7231 21.992 20.3438 21.4695 20.8562C20.9564 21.3779 20.3359 21.7816 19.6511 22.0394C18.9975 22.2929 18.2525 22.4653 17.1596 22.5166C16.0657 22.5648 15.7178 22.5782 12.9297 22.5782C10.1416 22.5782 9.79372 22.5679 8.69982 22.5166C7.60694 22.4653 6.86297 22.2929 6.20827 22.0394C5.52312 21.7823 4.90249 21.3785 4.38989 20.8562C3.86798 20.3434 3.46421 19.7228 3.20671 19.0379C2.95222 18.3842 2.78085 17.6392 2.72954 16.5463C2.68131 15.4524 2.66797 15.1045 2.66797 12.3164C2.66797 9.52831 2.67823 9.18044 2.72954 8.08654C2.78085 6.99264 2.95222 6.24969 3.20671 5.59499C3.4635 4.90969 3.86736 4.289 4.38989 3.77661C4.90264 3.25452 5.52322 2.85072 6.20827 2.59343C6.86297 2.33894 7.60592 2.16757 8.69982 2.11626C9.79372 2.06803 10.1416 2.05469 12.9297 2.05469ZM12.9297 7.18556C11.5689 7.18556 10.2639 7.72613 9.30164 8.68835C8.33941 9.65058 7.79884 10.9556 7.79884 12.3164C7.79884 13.6772 8.33941 14.9823 9.30164 15.9445C10.2639 16.9067 11.5689 17.4473 12.9297 17.4473C14.2905 17.4473 15.5956 16.9067 16.5578 15.9445C17.52 14.9823 18.0606 13.6772 18.0606 12.3164C18.0606 10.9556 17.52 9.65058 16.5578 8.68835C15.5956 7.72613 14.2905 7.18556 12.9297 7.18556ZM19.5998 6.92901C19.5998 6.58882 19.4647 6.26255 19.2241 6.022C18.9836 5.78144 18.6573 5.6463 18.3171 5.6463C17.9769 5.6463 17.6507 5.78144 17.4101 6.022C17.1695 6.26255 17.0344 6.58882 17.0344 6.92901C17.0344 7.26921 17.1695 7.59548 17.4101 7.83603C17.6507 8.07659 17.9769 8.21173 18.3171 8.21173C18.6573 8.21173 18.9836 8.07659 19.2241 7.83603C19.4647 7.59548 19.5998 7.26921 19.5998 6.92901ZM12.9297 9.23791C13.7462 9.23791 14.5292 9.56225 15.1066 10.1396C15.6839 10.7169 16.0082 11.5 16.0082 12.3164C16.0082 13.1329 15.6839 13.9159 15.1066 14.4933C14.5292 15.0706 13.7462 15.3949 12.9297 15.3949C12.1132 15.3949 11.3302 15.0706 10.7529 14.4933C10.1755 13.9159 9.85119 13.1329 9.85119 12.3164C9.85119 11.5 10.1755 10.7169 10.7529 10.1396C11.3302 9.56225 12.1132 9.23791 12.9297 9.23791Z" fill="white"></path>
+                </svg>
+              </div>
+              <div class="social"> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25" viewBox="0 0 26 25" fill="none">
+                  <path d="M16.792 21.5493V14.4009H19.1861L19.5442 11.622H16.792V9.84882C16.792 9.0443 17.0157 8.4953 18.1692 8.4953H19.6407V6.0099C18.9283 5.93432 18.2124 5.89767 17.496 5.9001C15.3749 5.9001 13.9229 7.19513 13.9229 9.57381V11.622H11.5237V14.4009H13.9229V21.5493H5.0916C4.81945 21.5493 4.55843 21.4411 4.36599 21.2487C4.17354 21.0563 4.06543 20.7952 4.06543 20.5231V4.1043C4.06543 3.83214 4.17354 3.57113 4.36599 3.37868C4.55843 3.18624 4.81945 3.07813 5.0916 3.07812H21.5104C21.7825 3.07813 22.0436 3.18624 22.236 3.37868C22.4284 3.57113 22.5366 3.83214 22.5366 4.1043V20.5231C22.5366 20.7952 22.4284 21.0563 22.236 21.2487C22.0436 21.4411 21.7825 21.5493 21.5104 21.5493H16.792Z" fill="white"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="second-content"> 
+            <div class="parent-form-selsct">
+              <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                <option class="active color-wight font-normal font-w-md" selected="selected">الخدمات</option>
+                <option value="1">التصاميم والتصوير</option>
+                <option value="2">التصاميم والتصوير</option>
+                <option value="3">التصاميم والتصوير</option>
+                <option value="1">التصاميم والتصوير</option>
+                <option value="2">التصاميم والتصوير</option>
+                <option value="3">التصاميم والتصوير</option>
+              </select>
+            </div>
+            <div class="parent-form-selsct">
+              <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                <option selected="selected">عن الشركة</option>
+                <option value="1">التصاميم والتصوير</option>
+                <option value="2">التصاميم والتصوير</option>
+                <option value="3">التصاميم والتصوير</option>
+              </select>
+            </div>
+          </div>
+          <div class="three-content">
+            <div class="content">
+              <h5 class="font-md font-w-lg color-wight">النشرة البريدية </h5>
+              <p class="font-xs font-w-sm color-wight">اشترك في نشرتنا البريدية واحصل على مقالات حصرية عن تسويق المتاجر الإلكترونية.</p>
+            </div>
+            <div class="content-input">
+              <input class="form-control" type="email" placeholder="البريد الالكتروني"/>
+              <div class="content-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                  <path d="M0 8C0 3.58172 3.58172 0 8 0H42C46.4183 0 50 3.58172 50 8V50H0V8Z" fill="white"></path>
+                  <path d="M27.8457 29.1333L24.0249 25.3125L27.8457 21.4917L26.6665 20.3125L21.6665 25.3125L26.6665 30.3125L27.8457 29.1333Z" fill="#4832D9"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="four-content"> 
+            <div class="privacy-policy">
+              <div class="content-design"> 
+                <p class="font-w-sm color-wight">كل الحقوق محفوظة لمكاسب . صمم بواسط بيانات</p>
+              </div>
+              <div class="content-description"> 
+                <p class="font-w-sm color-wight">سياسة الخصوصية </p>
+                <p class="font-w-sm color-wight">الشروط والأحكام                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../Bootstrap/js/bootstrap.min.js"></script>
+    <script src="../Font Awesome/js/all.min.js"> </script>
+  </body>
+</html>

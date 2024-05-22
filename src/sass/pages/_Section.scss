@@ -1,0 +1,1361 @@
+.Home-intro{
+    background-color: #FFFCF2;
+    padding-top: 120px;
+    .container{
+        .content {
+            margin-top: 100px;
+            .content-title{
+                line-height: 134%;
+                padding-bottom: 32px;
+            }
+            .content-text {
+                max-width: 498px;
+                line-height: 150%;
+                padding-bottom: 40px;
+            }
+            .content-button {
+                padding-bottom: 70px;
+            }
+        }
+        .intro-img{
+            padding-top: 50px;
+        }
+    }
+    @media screen and (max-width:991px) {
+        .container{
+            .intro-img{
+                margin-top: 30px;
+            }
+        }
+        
+    }
+
+}
+.Takaful-system{
+    margin-top: 100px;
+    padding-bottom: 100px;
+    .container {
+        .Takaful-system-content{
+            .content-title{
+                margin: auto;
+                max-width: 802px;
+                h3{
+                    text-align: center;
+                    line-height: 160%;
+                }
+            } 
+            .content-text {
+                margin: auto;
+                max-width: 645px;
+                padding-bottom: 20px;
+                p{
+                    line-height: 170%;
+                    text-align: center;
+                }
+            }
+            .the-card{
+                padding: 23px;
+                border-radius: 16px;
+                background: #F8F8F8;
+                .the-card-img{
+                    img{
+                        width: 63.387px;
+                        flex-shrink: 0;
+                        padding-bottom: 16px;
+                    }
+                }
+                .the-card-content {
+                    .contaent-title {
+                        padding-bottom: 5px;
+                       
+                    }
+                    .the-card-content-text {
+                        max-width: 346px;
+                       
+                    }
+                }
+            }
+        }
+        }
+    }
+        .the-buttom-takaful-system {
+            text-align: center;
+            padding-bottom: 125px;
+            }
+    
+
+    @media screen and (max-width:1400px) {
+        .parent-section{
+            .container{
+                .parent-cards{
+                    .cards{
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:1400px) {
+        .parent-section{
+            .container{
+                .parent-cards{
+                    .cards{
+                        .content-img{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+.sales{
+    padding-bottom: 115px;
+    .container{
+        .sales-content{
+          margin-top: 100px;
+        }
+        .card{
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+.Success-stories{
+    .container{
+        .content-parent {
+            margin-top: 50px;
+            padding-bottom: 64px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+        }
+        .parent-cards{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 24px;
+            padding-bottom: 70px;
+        
+        .thecadr{
+            border-radius: 24px;
+            background: #F8F8F8;
+            padding: 16px 16px 31px 16px;
+            .thecard-img{
+                img{
+                    width: 100%;
+                }
+            }
+            .thecard-content {
+                .thcard-text {
+                    p{
+                        max-width: 350px;
+                    }
+                }
+            }
+        }
+    }
+}
+}
+.clients {
+    background: #F8F8F8;
+    padding: 48px 40px 73px 40px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    .container{
+        .parent-client {
+            display: grid;
+            text-align: center;
+            justify-content:center;
+            grid-template-columns:  160px  160px  160px 160px 160px 160px 160px ;
+            padding-bottom: 12px;
+            gap: 24px;
+            .client-img{
+                img{
+                    width: 100%;
+                    max-width: 138px;
+                    height: 90px;
+                }
+            }
+        }
+        .parent-client-tow{
+            display: grid;
+            text-align: center;
+            justify-content: center;
+            grid-template-columns:  160px  160px  160px 160px 160px 160px ;
+            gap:24px;
+            .client-img{
+                img{
+                    width: 100%;
+                    max-width: 138px;
+                    height: 90px;
+                }
+            }
+        }
+        @media screen and (max-width:1250px) {
+            .parent-client{
+                grid-template-columns:  160px  160px  160px;
+                padding-bottom: 24px;
+                .client-img.none {
+                    display: none;
+                }
+            }
+            .parent-client-tow{
+                grid-template-columns:  160px  160px  160px ;
+            }
+        }
+        @media screen and (max-width:520px) {
+            .parent-client{
+                grid-template-columns:  160px  160px;
+            }
+            .parent-client-tow{
+                grid-template-columns:  160px  160px;
+            }
+        }
+        @media screen and (max-width:320px) {
+            .parent-client{
+                column-gap: 0;
+                row-gap: 6px;
+                padding-bottom: 6px;
+            }
+            .parent-client-tow{
+                column-gap: 0;
+                row-gap: 6px;
+            }
+        }
+    }
+}
+.Why-choose-Makaseb{
+    .container{
+        .content{
+            margin-top: 100px;
+            padding-bottom: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items:center ;
+            flex-wrap: wrap;
+            .content-icon{
+                display: flex;
+                gap:8px;
+                .icon{
+                    border-radius: 17px;
+                    border: 1px solid #D6D7DA;
+                    background: #FFF;
+                    padding: 12px;
+                    &:hover{
+                    border-color:#4832D9 ;
+                    transition: 0.8s;
+                }
+            }
+        }
+        }
+        .parent-cards{
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+        .thecard{
+            border-radius: 10px;
+            border: 1px solid #D6D7DA;
+            opacity: 0.8;
+            border-radius: 10px;
+            border: 1px solid #D6D7DA;
+            opacity: 0.8;
+            background: var(--White, #FFF);
+            padding: 24px;
+            .thcard-parent-content{
+                display: flex;
+                gap:10px;
+                flex-wrap: wrap;
+            }
+            .thcard-prg {
+              max-width:300px;
+            }
+        }
+        }
+}
+.Connect-with-us{
+    background: #F8F8F8;
+    .container{
+        margin-top: 100px;
+        padding-top: 55px;
+        .content-img {
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+.social-media{
+    background: #EFEFEF;
+    padding-top: 56px;
+    .container{                                                             
+        .parent-social{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            flex-wrap: wrap;
+            column-gap: 24px;
+            row-gap: 20px;
+            .social{
+                text-align: center;
+                width: 130px;
+            }
+        }
+    }
+}
+@mixin content-card{
+    padding-right: 70px;
+    display: flex;
+    .line{
+        display:flex;
+        align-items: center;
+        margin-top: auto;
+    }
+    .thecard{
+        padding: 24px;
+        border-radius: 24px;
+        background: #FFF;
+        .content-thecard{
+            .first-step{
+                width: 56px;
+                height: 56px;
+                border-radius: 40px;
+                padding: 8px;
+                background-color: #4832D9;
+                align-items: center;
+
+                p{
+                    text-align: center;
+                }
+            }
+            .content-text{
+                max-width: 492.289px;
+            }
+        }
+    }
+}
+@mixin content-second-card{
+    padding: 30px;
+    margin-right: 256px;
+    margin-top: -67px;
+    .line{
+        display:flex;
+        align-items: center;
+        margin-top: auto;
+    }
+    .thecard{
+        padding: 24px;
+        border-radius: 24px;
+        background: #FFF;
+        .content-thecard{
+            .first-step{
+                width: 56px;
+                height: 56px;
+                border-radius: 40px;
+                padding: 8px;
+                background-color: #4832D9;
+                align-items: center;
+
+                p{
+                    text-align: center;
+                }
+            }
+            .content-text{
+                max-width: 492.289px;
+            }
+        }
+    }
+}
+.groups{
+    .container{
+        background: #F8F8F8;
+        border-radius: 16px;
+        padding: 80px;
+        @media screen and (max-width:991px) {
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    .groups-content{
+        padding-bottom: 45px;
+    }
+    .card{
+        width: 100%;
+        height: 100%;
+        .card-img{
+            img{
+              max-width: 58.339px;
+              max-height: 61px;
+            }
+        }
+        .card-text {
+            max-width: 360px;
+        }
+    }
+}
+}
+.About-intro{
+    fill: #F8F8F8;
+    background-color: #F8F8F8;
+    padding-top: 200px;
+    padding-bottom: 70px;
+    .container{
+        .content-img {
+            img{
+                max-width: 556px;
+            }
+        }
+        .content{
+            .content-element-text{
+                max-width: 486px;
+            }
+        }
+    }
+}
+.Stages-of-progress{
+    padding-bottom: 80px;
+    .container{
+        padding-bottom: 100px;
+        padding-top: 100px;
+        border-radius: 24px;
+        background: linear-gradient(180deg, rgba(248, 248, 248, 0.00) -28.84%, #F8F8F8 99.99%);
+        margin-top:100px;
+        .content-element{
+            .content-element-title {
+                margin: auto;
+                max-width: 784px;
+                padding-bottom: 50px;
+            }
+        }
+        .parent-thecards{
+          @include content-card ;
+        }
+        .parent-thecards-Exceptional-results{
+                @include content-second-card ;
+            }
+        }
+        .parent-thecards-Creating-raining-system{
+            @include content-card ;
+            margin-top: -26px;
+        }
+        .parent-thecards-Million-sales{
+            @include content-card ;
+            margin-top: -26px;
+        }
+        .thcards-sm{
+            gap: 30px;
+            .thecard{
+                padding: 24px;
+                border-radius: 24px;
+                background: #FFF;
+                .content-thecard{
+                    .first-step{
+                        width: 56px;
+                        height: 56px;
+                        border-radius: 40px;
+                        padding: 8px;
+                        background-color: #4832D9;
+                        align-items: center;
+        
+                        p{
+                            text-align: center;
+                        }
+                    }
+                    .content-text{
+                        max-width: 492.289px;
+                    }
+                }
+            }
+        }
+        @media screen and (min-width: 1200px) {
+            .container{
+                .thcards-sm{
+                    display: none !important;
+                }
+            }
+        }
+        @media screen and (max-width:1200px) {
+            .container{
+                .parent-thecards{
+                   display: none !important;
+                  }
+                  .parent-thecards-Exceptional-results{
+                         display: none!important;
+                      }
+                  }
+                  .parent-thecards-Creating-raining-system{
+                      display: none;
+                  }
+                  .parent-thecards-Million-sales{
+                     display: none;
+                  }
+            }
+        }
+    
+    .Help{
+        margin-top: 50px;
+        .content-title{
+            max-width: 732px;
+            padding-bottom: 56px;
+           
+        }
+    }
+    .services-intro{
+        padding-top: 180px;
+        padding-bottom: 120px;
+        background-color:#F6F4FD ;
+        fill: #F6F4FD;
+        .container{
+            .content-element {
+                .content-title {
+                    max-width: 548px;
+                    padding-bottom: 20px;
+                    h1{
+                        line-height: 134%; /* 75.04px */
+                    }
+                }
+                .content-text{
+                    max-width: 498px;
+                    p{
+                        line-height: 150%; /* 27px */
+                    }
+                }
+                .content-btn {
+                    margin-top: 30px;
+                }
+            }
+            .content-img {
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        }
+    .parent-the-cards {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        .the-card{
+            padding: 32px;
+            border-radius: 16px;
+            background: #F8F8F8;
+        }
+    }
+    .Ad-mnagment-services-intro{
+        padding-top: 200px;
+        padding-bottom: 70px;
+        fill: #F8F8F8;
+        background-color: #F8F8F8;
+        .container{
+                .content-element{
+                    .element-title{
+                        max-width: 724px;
+                        padding-bottom: 10px;
+                    }
+                }
+                .parent-content-img{
+                    width: 455.74px;
+                }
+            }
+        @media screen and (max-width:1350px) {
+                .container{
+                    .parent{
+                        .content-element{
+                            .element-title{
+                               width: 100%;
+                               margin: auto;
+                                h1{
+                                    text-align: center;
+                                }
+                            }
+                            .element-text{
+                                p{
+                                    text-align: center;
+                                }
+                            }
+                            .element-btn{
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+    }
+}
+.media_campaigns {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .container{
+        border-radius: 24px;
+            background: linear-gradient(180deg, rgba(248, 248, 248, 0.00) -28.84%, #F8F8F8 99.99%);
+            padding: 40px 56px 80px 56px;
+        .content-elment{
+            .element-title{
+                padding-bottom: 80px;
+        }
+    }
+
+            .content-elment.shdow{
+                padding: 24px;
+                border-radius: 24px;
+                background: #FFF;
+                box-shadow: 0px 4px 44px 0px rgba(0, 0, 0, 0.05);
+                .element-text{
+                    max-width: 492.289px;
+                    p{
+                        line-height: 150%;
+                    }
+                }
+            }
+            .content-elment{
+                margin-top: 30px;
+                .element-text{
+                    max-width: 492.289px;
+                    p{
+                        line-height: 150%;
+                    }
+                }
+            }
+        }
+        .content-img {
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+
+.Campaign-management-team{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #F8F8F8;
+    padding: 80px 0;
+    .container{
+        .content-element{
+            .elelment-title{
+                padding-bottom: 64px;
+                max-width: 483px;
+                margin: auto;
+            }
+        }
+        .parent-cards {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            align-items: center;
+            flex-wrap: wrap;
+        
+        .the-card{
+            border-radius: 16px;
+            background: #FFF;
+            padding: 40px 24px;
+            .element-text{
+                max-width: 355px;
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+}
+.How-our-clients-achieve-returns{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .container{
+        .element-title {
+            margin: auto;
+            max-width: 532px;
+            h3{
+                padding-bottom: 45px;
+                text-align: center;
+            }
+        }
+        .parent-cards{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 24px;
+        .the-card{
+            display: flex;
+            gap: 32px;
+            padding: 32px;
+            flex-wrap: wrap;
+            border-radius: 16px;
+            background: #F8F8F8;
+            .element-text{
+                max-width: 475px;
+            }
+        }
+    }
+    }
+}
+.Store-achievements{
+    margin-top: 160px;
+    background: #F8F8F8;
+    padding: 80px 80px;
+    .container{
+        .content-element {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 64px;
+            flex-wrap: wrap;
+            .content-btns {
+                .btn{
+                    padding: 12px;
+                    border-radius: 17px;
+                    border: 1px solid #D6D7DA;
+                    background: #FFF;
+                }
+            }
+        }
+
+        .content-img {
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+.Ad-viresting-prodaction-intro{
+    padding-top: 25PX;
+    background-color:#F8F8F8;
+    .container{
+        .parent-intro{
+            padding-bottom: 112px;
+            padding-top: 180px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            .parent-content-element{
+                .elelment-title{
+                    width: 761px;
+                    h1{
+                        line-height: 134%; /* 75.04px */
+                        padding-bottom: 15px;
+                    }
+                }
+                .content-btn {
+                    margin-top: 40px;
+                }
+                .content-img{
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:1400px) {
+        .container{
+            .parent-intro{
+                .content-img{
+                    margin: auto;
+                    margin-top: 40px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .parent-content-element{
+                    .elelment-title{
+                        width: 100%;
+                        h1{
+                            text-align: center;
+                        }
+                    }
+                    .element-text{
+                        text-align: center;
+                    }
+                    .content-btn {
+                        text-align: center;
+                }
+            }
+        }
+    }
+}
+}
+.Making-advertisements{
+    margin-top: 160px;
+    .container{
+        border-radius: 24px;
+        background: linear-gradient(180deg, rgba(248, 248, 248, 0.00) -28.84%, #F8F8F8 99.99%);
+        padding: 40px 56px 80px 56px;
+        .content-element{
+            .element-title {
+                padding-bottom: 64px;
+            }
+        }
+        .parent-making-advertisements{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            .parent-content{
+                .content-elelment   {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 8px;
+                    .element-text{
+                        max-width: 516px;
+                    }
+                }
+                .content-btn{
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+}
+.Glimpses-of-our-previous-work{
+    .container{
+        .content-element {
+            margin-top: 160px;
+            padding-bottom: 30px;
+        }
+        .parent-content-img {
+            display: flex;
+            justify-content: space-between ;
+            align-items: center;
+            flex-wrap: wrap;
+            padding-bottom: 80px;
+        }
+        
+    }
+}
+.Benefits-of-advertising{
+    .container{
+        .content-element-title {
+            max-width: 709px;
+            margin: auto;
+        }
+        .theCard {
+            padding: 32px;
+            border-radius: 16px;
+            background: #F8F8F8;
+        }
+        .btn{
+            margin-top: 30px;
+        }
+    }
+}
+.Our-advertising-results{
+    padding-top: 100px;
+    .container{
+        .Prent-theCards{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 24px;
+        .theCard{
+            padding: 32px 32px 48px 40px;
+            border-radius: 10px;
+            border: 1px solid rgba(72, 50, 217, 0.24);
+            opacity: 0.8;
+            background: #F8F6FD;
+        }
+    }
+}
+}
+.Stores-trust-us{
+    background: #F8F8F8;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    .container{
+        .Stores{
+            display: flex;
+            justify-content: center;
+            column-gap: 37px;
+            flex-wrap: wrap;
+            align-items: center;
+            row-gap: 30px;
+            .Store{
+                display: flex;
+                border-radius: 16px;
+                background: var(--Default-White, #FFF);
+                padding: 20px;
+                svg{
+                    width: 111px;
+                    height: 38px;
+                }
+            }
+        }
+        .second-Stores{
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                align-items: center;
+                row-gap: 30px;
+                column-gap: 40px;
+                .Store{
+                    border-radius: 16px;
+                    background: var(--Default-White, #FFF);
+                    padding: 20px;
+                    svg{
+                        width: 111px;
+                        height: 38px;
+                    }
+                }
+        }
+    }
+}
+.Services-Advertising-production-service.intro{
+    padding-top: 25px;
+    background-color: #F8F8F8;
+    .container{
+        .parent-intro{
+            padding-bottom: 112px;
+            padding-top: 200px;
+                .content-text {
+                    max-width: 553px;
+                }
+                .content-btn {
+                    margin-top: 40px;
+                }
+            }
+        }
+    } 
+.Learn-about-our-strategy{
+    .container{
+        padding-top: 70px;
+        .theCard {
+            padding: 32px;
+            border-radius: 16px;
+            background: #F8F8F8;
+        }
+    }
+}
+.How-can-SEO-service-help-you{
+    padding-bottom: 60px;
+    .container{
+        .theCard {
+            display: flex;
+            gap: 32px;
+            padding: 32px;
+            border-radius: 16px;
+            background: #F8F8F8;
+        }
+    }
+}
+.We-helped-stores-increase-traffic{
+    background: #F8F8F8;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    .container{
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            .content-title {
+               max-width: 688px;
+               h2{
+                line-height: 160%;
+               }
+                
+            }
+            .content-icon{
+                display: flex;
+                gap:8px;
+                .icon{
+                    border-radius: 17px;
+                    border: 1px solid #D6D7DA;
+                    background: #FFF;
+                    padding: 12px;
+                    &:hover{
+                    border-color:#4832D9 ;
+                    transition: 0.8s;
+                }
+            }
+        }
+        }
+        .content-img {
+            padding-top: 64px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+.socialMedia-Mnajement.intro {
+    padding-top: 25px;
+    background-color: #F8F8F8;
+    .container{
+        .parent-intro {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            column-gap: 180px;
+            align-items: center;
+            padding-top: 140px;
+            padding-bottom: 120px;
+            .content-element {
+                padding-bottom: 40px;
+                .content-title{
+                    max-width: 617px;
+                }
+                .content-btn{
+                    margin-top: 40px;
+                }
+            }
+        }
+        }
+    }
+    .methodologies{
+        margin-top: 50px;
+        .container{
+            padding: 40px 56px 80px 56px;
+            border-radius: 24px;
+            background: linear-gradient(180deg, rgba(248, 248, 248, 0.00) -28.84%, #F8F8F8 99.99%);
+            .theCard{
+                padding: 32px;
+                border-radius: 16px;
+                background: #FFF;
+                .content-title{
+                    max-width: 280px;
+                }
+            }
+        }
+    }
+    .We-help-you-in-managing-accounts{
+        .container{
+            .parent-content-element {
+                padding-top: 70px;
+                padding-bottom: 70px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+            .content-element {
+                .content-text{
+                    max-width: 490px;
+                }
+            }
+            .parent-deescription {
+                padding-top: 50px;
+                padding-bottom: 80px;
+                display: flex;
+                flex-direction: column;
+                gap: 18px;
+                .description{
+                    display: flex;
+                    gap: 5px;
+                }
+            }
+            .content-img{
+                padding-bottom: 40px;
+                img{
+                   width: 100%;
+                }
+            }
+        }
+    }
+}
+.We-help-with-brand-strength{
+    background: #F8F8F8;
+    padding-top: 70px;
+    padding-bottom: 96px;
+    .container{
+        .thecard {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            padding: 32px;
+            border-radius: 16px;
+            background: #FFF;
+            .content-element {
+                .content-text{
+                    max-width: 496px;
+                }
+            }
+        }
+    }
+}
+.Services-Design-service-intro{
+    padding-top: 25px;
+    background-color: #F8F8F8;
+    .container{
+        .parent-intro {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            column-gap: 155px;
+            align-items: center;
+            padding-top: 180px;
+            padding-bottom: 120px;
+            .content-element {
+                padding-bottom: 40px;
+                .content-title{
+                    max-width: 642px;
+                }
+                .content-text{
+                    max-width: 553px;
+                }
+                .content-btn{
+                    margin-top: 40px;
+                }
+            }
+            .content-img {
+                img{
+                   width: 100%;
+                }
+            }
+        }
+    }
+}
+.Sestem-intagration-intro{
+    padding-top: 25px;
+    background-color: #F6F4FD;
+    .container{
+        .parent-intro {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            padding-top: 140px;
+            padding-bottom: 120px;
+            .content-element {
+                padding-bottom: 40px;
+                .content-title{
+                    max-width: 642px;
+                }
+                .content-text{
+                    max-width: 553px;
+                }
+            }
+            .content-img {
+                img{
+                   width: 100%;
+                }
+            }
+        }
+    }
+
+}
+.Integration-system{
+    padding-top: 70px;
+    .container{
+        .content-text{
+            max-width: 784px;
+        }
+        .parent-icons {
+            display: flex;
+            margin-top: 30px;
+            justify-content: center;
+            column-gap: 40px;
+            row-gap: 5px;
+            align-items: center;
+            flex-wrap: wrap;
+            .pluse {
+                p{
+                    font-size: 30px;
+                    font-weight: 500;
+                }
+            }
+            .parent {
+                .icon{
+                    border-radius: 24px;
+                    background: #F5F5F5;
+                    padding: 24px;
+                    svg{
+                        width: 79px;
+                        height: 67px;
+                    }
+                }
+            }
+            .parent {
+                .icon-witht{
+                    background-color: #FFF;
+                    padding: 24px;
+                }
+            }
+            }
+        }
+        @media screen and (max-width: 768px) {
+            .container{
+                .parent-icons{
+                    .pluse{
+                        display: none !important;;
+                    }
+                }
+            }
+        }
+    }
+    .Do-you-need-system-integration{
+        padding-top: 80px;
+        .container{
+            border-radius: 24px;
+            padding: 40px  80px 56px;
+            background: linear-gradient(180deg, rgba(248, 248, 248, 0.00) -28.84%, #F8F8F8 99.99%);
+            .parent-content-element {
+                padding-top: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 50px;
+                .parent-element  {
+                    p{
+                        max-width: 480px;
+                    }
+                }
+                .parent-content-img {
+                    img{
+                        width: 100%;
+                    }
+                }  
+                .parent-content{
+                    border-radius: 16px;
+                    padding: 16px;
+                    background: #FFF;
+                    .content-title {
+                        border-bottom: solid 1px #DEDEDE;
+                    }
+                    .content-text{
+                        p{
+                            color: #2E2E2E;
+                        }
+                    }
+                }   
+                @media screen and (max-width:991px) {
+                    display: block !important;
+                }
+            }
+        }
+    }
+    .Store-success-stories{
+        padding-top:  25px;
+        background-color: #FFFCF2;
+        .container{
+            .content-title{
+                padding-top: 140px;
+                padding-bottom: 140px;
+            }
+        }
+    }
+    .store-departments{
+        .container{
+            .sections {
+                display: flex;
+                padding-bottom: 30px;
+                padding-top: 70px;
+                gap: 73px;
+                .active{
+                    border-bottom: solid 2px #4832D9;
+                }
+            }
+            .parent-cards{
+                display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding-bottom: 30px;
+            .thecadr{
+                border-radius: 24px;
+                background: #F8F8F8;
+                padding: 16px 16px 31px 16px;
+                .thecard-img{
+                    img{
+                        width: 380px;
+                    }
+                }
+                .thecard-content {
+                    .thcard-text {
+                        p{
+                            width: 380px;
+                        }
+                    }
+                }
+            }
+        }
+        .btn {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 50px;
+            a{
+                padding: 11px 22px;
+                border-radius: 35px;
+                text-decoration: none;
+                &:hover{
+                    background-color: transparent;
+                    color: #4832D9;
+                    border: solid 1px #4832D9;
+                    transition: 0.8s;
+                }
+            }
+        }
+    }
+    
+}
+.intagred-service{
+    padding-top: 25px;
+    padding-bottom: 180px;
+    background: #F8F8F8;
+    .container{
+        .theCrad{
+            position: relative;
+            padding: 32px 32px 32px;
+            width: 88%;
+            display: flex;
+            align-items: center;
+            border-radius: 16px;
+            .content-card {
+                .content-text{
+                    max-width: 300px;
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .content-img {
+            position: absolute;
+            left: -71px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+@media screen and (max-width:768px) {
+    .intagred-service{
+    .container{
+        .theCrad{
+            width: 100%;
+        }
+        .content-img{
+            display: none;
+        }
+    }
+}
+}
+
+@media screen and (min-width:991px){
+    .intagred-service{
+        .container{
+            .position{
+                top: 110px;
+            }
+            .content {
+                padding-bottom: 50px;
+                position: relative;
+                top: 98px;
+            }
+        }
+    }
+}
+@media screen and (max-width:991px) {
+    .intagred-service{
+        padding-bottom: 30px;
+        .container{
+            .content {
+                padding-bottom: 50px;
+            }
+        }
+    }
+}

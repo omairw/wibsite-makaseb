@@ -1,0 +1,52 @@
+extends ../Layouts/default.pug
+block content
+    include ../components/The-Header.pug
+    section.services-intro
+        .container
+            .row
+                .col-lg-6.pb-5.d-flex.align-items-center
+                    .content-element 
+                        .content-title 
+                            h1.color-darck.font-lg.font-w-lg خذ تجارتك نحو النمو من خلال منظومة التكامل 
+                        .content-text 
+                            p.color-darck.font-smole.font-w-sm أكثر من مجرد إعلانات أو تصاميم،ولكن خطة متكاملة تحقق لك مبيعات ونمو المتجر. 
+                        .content-btn.btn-primary
+                            a(href="#" class="font-xs.font-w-md.color-darck") اطلب استشارة مجانية
+                .col-lg-6    
+                    .content-img 
+                        img(src="../static/Services-img/img-intro-services.svg", alt="intro-img" title="intro-img" class="width-md")                       
+    .parent-the-cards 
+        .container
+            .row
+                .col-lg-4.pb-4
+                    .card.bg-card.padding-card.border-0.border-r-sm
+                        .the-card-img.pb-3 
+                            img(src="../static/Services-img/services-card.svg", alt="")
+                        .the-card-content 
+                            .content-title 
+                                h4.color-darck.font-sm.font-w-md استراتيجية أفضل
+                            .content-text 
+                                p.color0-darck.font-xs.font-w-sm التوصل إلى المزيج التسويقي الصحيح، سواء منصات التسويق، أو الأنشطة التسويقية وتخصيص الميزانية لتحقيق الهدف البيعي قريب المدى، وخطة النمو بعيدة المدى.
+                .col-lg-4.d-flex.pb-4
+                    .card.bg-card.padding-card.border-0.border-r-sm
+                        .the-card-img.pb-3
+                            img(src="../static/Services-img/services-card-tow.svg", alt="")
+                        .the-card-content 
+                            .content-title 
+                                h4.color-darck.font-sm.font-w-md بيانات أدق
+                            .content-text 
+                                p.color0-darck.font-xs.font-w-sm تحليل بيانات أفضل من شركات تسويق التجارة الإلكترونية الأخرى، يمكننا من التحرك بشكل أسرع واتخاذ قرارات أفضل والتوسع بشكل أكثر ذكاء.
+                .col-lg-4.d-flex.pb-4
+                    .card.bg-card.padding-card.border-0.border-r-sm
+                        .the-card-img.pb-3 
+                            img(src="../static/Services-img/servisec-card-three.svg", alt="")
+                        .the-card-content 
+                            .content-title 
+                                h4.color-darck.font-sm.font-w-md مكاسب محققة
+                            .content-text 
+                                p.color0-darck.font-xs.font-w-sm توافر مسوقين متخصصين في التجارة الإلكترونية مع وجود منتجات مميزة  وأحدث تقنيات الإعلانات والبيانات الواضحة يؤدي إلى نتائج فائقة. كل مرة.                                                
+    include ../components/The-Integrated-service.pug
+    include ../components/The-Success stories.pug
+    include ../components/The-Why choose Makaseb.pug
+    include ../components/The-Connect with us.pug
+    include ../components/The-Footer.pug          

@@ -1,0 +1,93 @@
+@media screen and (max-width:1200px) {
+    header{
+        .container{
+            .parent-header{
+                display: flex;
+                justify-content: space-between;
+                    align-items: center;
+                .navbar-lg{
+                    display: flex;
+                    justify-content: end flex;;
+                    nav{
+
+                        display: none !important;
+                    }
+                    .btns {
+                        display: none !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1200px){
+header{
+    .container{
+        .parent-header{
+            .navbar-sm{
+                display: none !important;
+            }
+        }
+    }
+}
+}
+@media screen and (max-width:990px){
+    .Home-intro{
+        .container{
+            padding-top: 0;
+            .content{
+                .content-title {
+                    h1{
+                        text-align: center;
+                    }
+                }
+                .content-text{
+                  margin: auto;
+                  text-align: center;
+                }
+                .content-button {
+                    text-align: center;
+                }
+            }
+            .intro-img{
+                margin-top: -70px;
+            }
+        }
+    }
+}
+@media screen and (max-width:991px) {
+    .Home-intro{
+        .container{
+            .content {
+                margin-top: 40px;
+                .content-title {
+                    padding-bottom: 0;
+                    h1{
+                        font-size: 6vw;
+                    }
+                }
+                .content-text {
+                    padding-bottom: 10px;
+                    p{
+                        font-size: 2vw;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:576px) {
+    .Home-intro{
+        .container{
+            .content{
+                .content-text{
+                    p{
+                        font-size: 3.5vw;
+                    }
+                }
+            } 
+        }
+    }
+}
+

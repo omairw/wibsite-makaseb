@@ -1,0 +1,19 @@
+@import "./pages/Header";
+@import "./pages/Section";
+@import "./pages/Cards";
+@import "./pages/Footer";
+@import "./pages/Variables";
+@import "./pages/Media";
+@import "./pages/font";
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    direction: rtl;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: "Almarai", sans-serif;
+}

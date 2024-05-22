@@ -1,0 +1,130 @@
+extends ../Layouts/default.pug
+block content
+    include ../components/The-Header.pug
+    section.About-intro
+        .container 
+            .row.g-4
+                .col-lg-6.pb-5
+                    .content-img 
+                        img(src="../static/About.images/intro-img.svg", alt="intro-img" title="intro-img" class=" width-md")
+                .col-lg-6.pb-5.d-flex.align-items-center
+                    .content
+                        .content-element-text.pb-3
+                            p.color-darck.font-smole.font-w-sm تشير دراسة إلى أن من بين كل 3 متاجر  جديدة. يفشل 2 منهم في الاستمرار أكثر من 3 أشهر
+                        .content-element-title.pb-1.pb-3
+                            h3.color.darck.font-normal.font-w-md نحن هنا لتغيير ذلك
+                        .content-element-text.pb-3
+                            p.color-darck.font-smole.font-w-sm ما تحتاجه هو المنظومة المتكاملة للتسويق. حيث يمكنك الإمساك بجميع أطراف معادلة النمو. وهي أكثر من مجرد إعلانات وتصاميم.
+                        .content-elment-btn.btn-primary 
+                            a.colorwight.font-xs.font-w-md.btn اطلب استشارة مجانية
+    section.Stages-of-progress
+        .container  
+            .content-element    
+                .content-element-title  
+                    h3.color-darck.font-md.font-w-lg.text-center البداية كانت أننا وجدنا صعوبة في وجود شركات تسويق تحقق نمو حقيقي، لذا أنشأنا مكاسب لتحقيق ذلك       
+            .parent-thecards
+                .thecard    
+                    .content-thecard
+                        .first-step
+                            p.font-w-md.font-normal.color-wight 01
+                        .content-title.pb-1.pt-3
+                            h4.fofnt0-normal-font-w-md.color-darck تأسيس مكاسب
+                        .content-text.pb-1
+                            p.color-darck.font-w-sm.font-smole تأسست مكاسب، كشركة سعودية من خلال مجموعة من الشركاء الذين يمتلكون متاجر إلكترونية
+                .line
+                    svg(xmlns="http://www.w3.org/2000/svg", width="348", height="107", viewBox="0 0 348 107", fill="none")
+                        path(d="M347.5 1.00257L7.1349 1.00257C3.82119 1.00257 1.13489 3.68886 1.13489 7.00257L1.1349 106.482", stroke="black", stroke-opacity="0.24", stroke-dasharray="8 8")
+            .parent-thecards-Exceptional-results.d-flex.justify-content-center
+                .line
+                    svg(xmlns="http://www.w3.org/2000/svg", width="357", height="92", viewBox="0 0 357 92", fill="none")
+                        path(d="M356.046 91.5005L356.046 7.16129C356.046 3.84867 353.362 1.16283 350.049 1.1613L0.000458388 0.999154", stroke="black", stroke-opacity="0.24", stroke-dasharray="8 8")
+                .thecard    
+                    .content-thecard
+                        .first-step
+                            p.font-w-md.font-normal.color-wight 02
+                        .content-title.pb-1.pt-3
+                            h4.fofnt0-normal-font-w-md.color-darck نتائج استثنائية
+                        .content-text.pb-1
+                            p.color-darck.font-w-sm.font-smole لكن النتائج الاستثنائية تحتاج مواهب استثنائية، خصوصًا في قطاع شديد الأهمية مثل التسويق به ندرة في المواهب.
+            .parent-thecards-Creating-raining-system
+                .thecard    
+                    .content-thecard
+                        .first-step
+                            p.font-w-md.font-normal.color-wight 03
+                        .content-title.pb-1.pt-3
+                            h4.fofnt0-normal-font-w-md.color-darck خلق منظومة تدريبية
+                        .content-text.pb-1
+                            p.color-darck.font-w-sm.font-smole ومن هنا خلقنا منظومة تدريبية تنتج أفضل المواهب التسويقية في جميع التخصصات، لتقديم منظومة التكامل في تحقيق النمو للمتاجر.
+                .line
+                    svg(xmlns="http://www.w3.org/2000/svg", width="348", height="107", viewBox="0 0 348 107", fill="none")
+                        path(d="M347.5 1.00257L7.1349 1.00257C3.82119 1.00257 1.13489 3.68886 1.13489 7.00257L1.1349 106.482", stroke="black", stroke-opacity="0.24", stroke-dasharray="8 8")
+            .parent-thecards-Exceptional-results.d-flex.justify-content-center
+                .line
+                    svg(xmlns="http://www.w3.org/2000/svg", width="357", height="92", viewBox="0 0 357 92", fill="none")
+                        path(d="M356.046 91.5005L356.046 7.16129C356.046 3.84867 353.362 1.16283 350.049 1.1613L0.000458388 0.999154", stroke="black", stroke-opacity="0.24", stroke-dasharray="8 8")
+                .thecard    
+                    .content-thecard
+                        .first-step
+                            p.font-w-md.font-normal.color-wight 04
+                        .content-title.pb-1.pt-3
+                            h4.fofnt0-normal-font-w-md.color-darck نمو تجاري مستدام
+                        .content-text.pb-1
+                            p.color-darck.font-w-sm.font-smole لتحقيق نمو تجاري حقيقي للمتاجر، عن طريق زيادة المبيعات الشهرية، والنمو شهر بعد شهر
+            .parent-thecards-Million-sales
+                .thecard    
+                    .content-thecard
+                        .first-step
+                            p.font-w-md.font-normal.color-wight 05
+                        .content-title.pb-1.pt-3
+                            h4.fofnt0-normal-font-w-md.color-darck مبيعات مليونية
+                        .content-text.pb-1
+                            p.color-darck.font-w-sm.font-smole وعبر 3 سنوات، استفادت عشرات المتاجر في تحقيق نمو وصل في بعضها إلى أكثر من 500%، بمبيعات مليونية
+            .thcards-sm
+                .thecard    
+                    .content-thecard
+                        .first-step
+                            p.font-w-md.font-normal.color-wight 01
+                        .content-title.pb-1.pt-3
+                            h4.fofnt0-normal-font-w-md.color-darck تأسيس مكاسب
+                        .content-text.pb-1
+                            p.color-darck.font-w-sm.font-smole تأسست مكاسب، كشركة سعودية من خلال مجموعة من الشركاء الذين يمتلكون متاجر إلكترونية
+                .thecard.mt-3   
+                    .content-thecard
+                        .first-step
+                            p.font-w-md.font-normal.color-wight 02
+                        .content-title.pb-1.pt-3
+                            h4.fofnt0-normal-font-w-md.color-darck نتائج استثنائية
+                        .content-text.pb-1
+                            p.color-darck.font-w-sm.font-smole لكن النتائج الاستثنائية تحتاج مواهب استثنائية، خصوصًا في قطاع شديد الأهمية مثل التسويق به ندرة في المواهب.
+                .thecard.mt-3    
+                    .content-thecard
+                        .first-step
+                            p.font-w-md.font-normal.color-wight 03
+                        .content-title.pb-1.pt-3
+                            h4.fofnt0-normal-font-w-md.color-darck خلق منظومة تدريبية
+                        .content-text.pb-1
+                            p.color-darck.font-w-sm.font-smole ومن هنا خلقنا منظومة تدريبية تنتج أفضل المواهب التسويقية في جميع التخصصات، لتقديم منظومة التكامل في تحقيق النمو للمتاجر.
+                .thecard.mt-3    
+                    .content-thecard
+                        .first-step
+                            p.font-w-md.font-normal.color-wight 04
+                        .content-title.pb-1.pt-3
+                            h4.fofnt0-normal-font-w-md.color-darck نمو تجاري مستدام
+                        .content-text.pb-1
+                            p.color-darck.font-w-sm.font-smole لتحقيق نمو تجاري حقيقي للمتاجر، عن طريق زيادة المبيعات الشهرية، والنمو شهر بعد شهر
+                .thecard.mt-3    
+                    .content-thecard
+                        .first-step
+                            p.font-w-md.font-normal.color-wight 05
+                        .content-title.pb-1.pt-3
+                            h4.fofnt0-normal-font-w-md.color-darck مبيعات مليونية
+                        .content-text.pb-1
+                            p.color-darck.font-w-sm.font-smole وعبر 3 سنوات، استفادت عشرات المتاجر في تحقيق نمو وصل في بعضها إلى أكثر من 500%، بمبيعات مليونية.
+    section.Help
+        .container 
+            .content
+                .content-title.m-auto
+                    h3.font-bold.font-w-lg.cololr-darck.text-center نساعدك تنمي تجارتك عبر منظومة التكامل وفريق مختص
+        include ../components/The-Cards.pug
+        include ../components/The-Connect with us.pug
+        include ../components/The-Footer.pug                

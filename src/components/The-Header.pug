@@ -1,0 +1,41 @@
+header
+  .container 
+    .parent-header
+      .navbar-lg
+        .header-logo 
+          img(src="../static/Home-images/headre-logo.svg", alt="logo" title="logo")
+        nav 
+          ul.parent-element
+            li.element-item: a.element-link.color-purple.font-xs.font-w-sm(href="../pages/index.html") الرئيسية
+            li.element-item: a.element-link.font-xs.font-w-sm.color-darck(href="../pages/About.html") من نحن    
+            li.element-item: a.element-link.font-xs.font-w-sm.color-darck(href="../pages/Ad-mngement-services.html") الخدمات      
+            li.element-item: a.element-link.font-xs.font-w-sm.color-darck(href="../pages/Services.html") منظومة التكامل
+            li.element-item: a.element-link.font-xs.font-w-sm.color-darck(href="../pages/system integration.html") المدونة
+        .btns 
+          .btn-lng 
+            a.color-darck.font-xs.font-w-sm(href="#") English 
+          .btn-contact.btn-primary
+            a.color-wight.font-xs.font-w-bold(href="#") تواصل معنا
+      div.navbar-sm.d-block
+        button.navbar-toggler(type="button", data-bs-toggle="offcanvas", data-bs-target="#offcanvasNavbar", aria-controls="offcanvasNavbar", aria-label="Toggle navigation")
+          i.fa-solid.fa-bars.fa-2xl(style="color: #000000;")
+        .offcanvas.bg-purple.pt-3.offcanvas-end#offcanvasNavbar(tabindex="-1", aria-labelledby="offcanvasNavbarLabel")
+          .offcanvas-header
+            .header-logo.d-flex.justify-content-between.align-items-center
+              svg(xmlns="http://www.w3.org/2000/svg", width="137", height="49", viewBox="0 0 137 49", fill="none")
+                g(clip-path="url(#clip0_1836_1903)")
+                  path(d="M123.298 13.6094C115.731 13.6094 109.596 19.704 109.596 27.2242C109.596 30.9815 111.131 34.3852 113.609 36.8496C116.089 39.3112 119.513 40.8362 123.298 40.8362C127.083 40.8362 130.506 39.3112 132.987 36.8496C135.468 34.3852 137 30.9843 137 27.2242V13.6094H123.298ZM128.779 27.2242C128.779 28.7271 128.165 30.0891 127.172 31.0754C126.179 32.0617 124.808 32.6723 123.295 32.6723V27.2269H117.814C117.814 24.2183 120.269 21.7816 123.295 21.7816H128.777V27.2297L128.779 27.2242Z", fill="white")
+                  path(d="M71.2421 13.6149V24.5084C71.2421 25.4367 71.1503 26.3429 70.9696 27.2186C70.4245 29.8902 69.0951 32.2772 67.2263 34.1338C64.7484 36.5954 61.3221 38.1204 57.5371 38.1204V32.6778C57.1478 33.1917 56.7223 33.6779 56.2662 34.1338C53.7855 36.5954 50.362 38.1204 46.577 38.1204V32.6778C46.1876 33.1917 45.7621 33.6779 45.3061 34.1338C42.8281 36.5954 39.4019 38.1204 35.6169 38.1204H30.141V32.6695C29.7489 33.1862 29.3234 33.6752 28.8645 34.131C26.3838 36.5954 22.9603 38.1177 19.1753 38.1177H13.6994C9.91722 38.1177 6.48819 36.5954 4.01027 34.131C1.53236 31.6667 0 28.2657 0 24.5084V19.9554C0 17.7949 1.39331 15.8776 3.45684 15.1924L8.22078 13.6149V24.5084C8.22078 26.0113 8.83261 27.3734 9.82544 28.3569C10.8155 29.3432 12.1866 29.9538 13.7022 29.9538H19.1781C20.691 29.9538 22.0621 29.3432 23.0549 28.3569C24.0477 27.3734 24.6623 26.0113 24.6623 24.5084V19.9554C24.6623 17.7949 26.0556 15.8748 28.1192 15.1924L32.8831 13.6149V24.5084C32.8831 26.4451 32.4743 28.2851 31.7401 29.9538H35.6224C37.1353 29.9538 38.5064 29.3432 39.4992 28.3569C40.4921 27.3734 41.1067 26.0113 41.1067 24.5056V19.9526C41.1067 17.7922 42.5 15.8748 44.5607 15.1897L49.3247 13.6094V24.5056C49.3247 26.3373 48.9604 28.0834 48.2985 29.6775C49.1217 29.4095 49.8586 28.9509 50.4566 28.3569C51.4494 27.3734 52.064 26.0113 52.064 24.5056V19.9526C52.064 17.7922 53.4573 15.8721 55.5208 15.1897L60.2848 13.6121V24.5056C60.2848 26.3373 59.9205 28.0834 59.2586 29.6775C60.0818 29.4067 60.8187 28.9509 61.4167 28.3541C62.4095 27.3706 63.0241 26.0086 63.0241 24.5029V19.9499C63.0241 17.7894 64.4174 15.8693 66.481 15.1869L71.2449 13.6094L71.2421 13.6149Z", fill="white")
+                  path(d="M101.374 13.6093L114.356 9.31044C116.419 8.62804 117.813 6.70794 117.813 4.54747V0L84.9378 10.888V19.0519H93.1586C96.1844 19.0519 98.64 21.4914 98.64 24.5C98.64 26.0029 98.0254 27.365 97.0326 28.3485C96.0425 29.3348 94.6687 29.9454 93.1586 29.9454H87.6827C86.1698 29.9454 84.7987 29.3348 83.8087 28.3485C82.8159 27.365 82.2012 26.0002 82.2012 24.5V0L77.4373 1.57753C75.3738 2.25992 73.9805 4.18003 73.9805 6.34049V24.5C73.9805 28.2573 75.5156 31.661 77.9935 34.1254C80.4714 36.587 83.8977 38.112 87.6827 38.112H93.1586C96.9408 38.112 100.367 36.587 102.848 34.1254C105.326 31.6638 106.861 28.2601 106.861 24.5C106.861 20.0465 104.708 16.0902 101.379 13.6065L101.374 13.6093Z", fill="white")
+                  path(d="M16.4385 48.9948C18.7086 48.9948 20.5489 47.1666 20.5489 44.9115C20.5489 42.6563 18.7086 40.8281 16.4385 40.8281C14.1684 40.8281 12.3281 42.6563 12.3281 44.9115C12.3281 47.1666 14.1684 48.9948 16.4385 48.9948Z", fill="white")
+                defs
+                  clipPath#clip0_1836_1903
+                    rect(width="137", height="49", fill="white")
+              button.btn-close(type="button", data-bs-dismiss="offcanvas", aria-label="Close")
+            .header-navbar-parent
+              ul.header-navbar-list.d-block
+                li.element-item.pb-4: a.element-link.color-wight.font-sm.font-w-sm(href="../pages/index.html") الرئيسية
+                li.element-item.pb-4: a.element-link.font-sm.font-w-sm.color-wight(href="../pages/About.html") من نحن
+                li.element-item.pb-4: a.element-link.font-sm.font-w-sm.color-wight(href="../pages/Ad-mngement-services.html") الخدمات
+                li.element-item.pb-4: a.element-link.font-sm.font-w-sm.color-wight(href="../pages/Services.html") منظومة التكامل
+                li.element-item.pb-4: a.element-link.font-sm.font-w-sm.color-wight(href="../pages/system integration.html") المدونة
